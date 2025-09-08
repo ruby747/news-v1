@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>News Cards — Single File (Topics First)</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --panel: #111111;
+      --panel-2: #171717;
+      --text: #e5e5e5;
+      --muted: #a3a3a3;
+      --border: #262626;
+      --accent: #22d3ee;
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo","Noto Sans KR", system-ui, Segoe UI, Roboto, Helvetica, Arial;
+      -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+    }
+    .container { max-width: 1120px; margin: 0 auto; padding: 16px; }
+    .header { position: sticky; top: 0; z-index: 20; backdrop-filter: blur(8px); background: rgba(10,10,10,.75); border-bottom: 1px solid var(--border); }
+    .header-inner { display: flex; align-items: center; gap: 12px; padding: 12px 16px; max-width: 1120px; margin: 0 auto; }
+    .title { font-weight: 800; font-size: 20px; letter-spacing: -0.01em; }
+    .muted { color: var(--muted); font-size: 12px; }
+    .btn { padding: 8px 12px; border-radius: 10px; background: #1f2937; border: 1px solid var(--border); color: var(--text); cursor: pointer; }
+    .grid { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 16px; }
+    @media (min-width: 640px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (min-width: 1024px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    @media (min-width: 1280px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+    .card { position: relative; border: 1px solid var(--border); border-radius: 22px; overflow: hidden; background: var(--panel); box-shadow: 0 10px 30px rgba(0,0,0,.25); cursor: pointer; }
+    .thumb-wrap { position: relative; width: 100%; aspect-ratio: 16/9; background: linear-gradient(135deg, #3b82f6, #1e293b); }
+    .thumb { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .fade { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.60), rgba(0,0,0,.15), transparent); }
+    .card-title { position: absolute; left: 16px; right: 16px; bottom: 12px; font-weight: 800; font-size: clamp(20px, 2.6vw, 28px); text-shadow: 0 8px 30px rgba(0,0,0,.5); }
+    .card-sub { position: absolute; left: 16px; right: 16px; bottom: 8px; transform: translateY(100%); font-size: 11px; color: var(--muted); }
+    .hidden { display: none; }
+
+    .alert { padding: 10px 12px; border: 1px solid #7f1d1d; background: #111827; color: #fca5a5; border-radius: 12px; font-size: 13px; }
+    .info { padding: 10px 12px; border: 1px solid #1e293b; background: #0b1220; color: #93c5fd; border-radius: 12px; font-size: 13px; }
+
+    /* Modal */
+    .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.6); display: flex; align-items: flex-start; justify-content: center; padding: 40px 16px; z-index: 50; }
+    .modal { width: min(960px, 96vw); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; background: var(--panel-2); }
+    .modal-head { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid var(--border); }
+    .modal-title { font-weight: 700; }
+    .modal-body { padding: 16px; }
+
+    .articles { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 12px; }
+    @media (min-width: 720px) { .articles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+    .article { border: 1px solid var(--border); border-radius: 14px; overflow: hidden; background: var(--panel); }
+    .article img { width: 100%; height: 160px; object-fit: cover; display: block; background: #0f172a; }
+    .article-body { padding: 10px; }
+    .article a { color: var(--text); text-decoration: none; }
+    .article a:hover { text-decoration: underline; }
+    .article-meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+    .footer { margin: 40px 0 24px; font-size: 12px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-inner">
+      <div class="title">News Cards</div>
+      <div id="updated" class="muted">—</div>
+      <div style="flex:1"></div>
+      <button class="btn" id="btn-refresh">새로고침</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="banner" class="info hidden"></div>
+    <div style="margin-top:12px; display:flex; align-items:flex-end; justify-content:space-between;">
+      <div style="font-weight:700;">최신 토픽</div>
+      <div class="muted" id="count">0개 토픽</div>
+    </div>
+
+    <div id="grid" class="grid" style="margin-top:14px;"></div>
+
+    <div class="footer">데이터는 정적 JSON을 사용합니다(기본: <code>data/latest.json</code>). 없으면 샘플 데이터로 표시합니다.</div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+    <div class="modal">
+      <div class="modal-head">
+        <div class="modal-title" id="modal-title"></div>
+        <button class="btn" id="btn-close">닫기</button>
+      </div>
+      <div class="modal-body">
+        <div id="articles" class="articles"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ---------- Utilities ----------
+    function fmtKST(ts) {
+      if (!ts) return '';
+      try {
+        const d = new Date(ts);
+        const f = new Intl.DateTimeFormat('ko-KR', { dateStyle:'medium', timeStyle:'short', hour12:false, timeZone:'Asia/Seoul' });
+        return f.format(d);
+      } catch(e) { return ts; }
+    }
+    function relTime(ts) {
+      if (!ts) return '';
+      try {
+        const diff = Date.now() - new Date(ts).getTime();
+        const s = Math.floor(diff/1000);
+        if (s < 60) return s + '초 전';
+        const m = Math.floor(s/60);
+        if (m < 60) return m + '분 전';
+        const h = Math.floor(m/60);
+        if (h < 24) return h + '시간 전';
+        const d = Math.floor(h/24);
+        return d + '일 전';
+      } catch(e) { return ''; }
+    }
+    function hashInt(str) {
+      let h = 0; for (let i=0;i<str.length;i++) h = (h*31 + str.charCodeAt(i)) >>> 0; return h>>>0;
+    }
+    function unsplashByQuery(q, w=960, h=540) {
+      const sig = ((Date.now()/(1000*60*60))|0) + hashInt(q);
+      return 'https://source.unsplash.com/'+w+'x'+h+'/?' + encodeURIComponent(q) + '&sig=' + sig;
+    }
+
+    // ---------- Data loading ----------
+    const EL = {
+      grid: document.getElementById('grid'),
+      count: document.getElementById('count'),
+      updated: document.getElementById('updated'),
+      banner: document.getElementById('banner'),
+      modal: document.getElementById('modal'),
+      modalTitle: document.getElementById('modal-title'),
+      articles: document.getElementById('articles'),
+      btnRefresh: document.getElementById('btn-refresh'),
+      btnClose: document.getElementById('btn-close'),
+    };
+
+    const DATA_URL = (new URLSearchParams(location.search)).get('data') || 'data/latest.json';
+
+    const SAMPLE = {
+      generatedAt: new Date().toISOString(),
+      topics: [
+        { token: "샘플 토픽", score: 3, articleIds: ["a1","a2","a3"] },
+        { token: "스포츠", score: 2, articleIds: ["a4"] },
+        { token: "테크", score: 1, articleIds: ["a5"] },
+      ],
+      articlesById: {
+        a1: { id:"a1", title:"샘플 기사 1", link:"#", source:"샘플", publishedAt:new Date().toISOString(), image:null, description:"설명..." },
+        a2: { id:"a2", title:"샘플 기사 2", link:"#", source:"샘플", publishedAt:new Date().toISOString(), image:null, description:"설명..." },
+        a3: { id:"a3", title:"샘플 기사 3", link:"#", source:"샘플", publishedAt:new Date().toISOString(), image:null, description:"설명..." },
+        a4: { id:"a4", title:"스포츠 기사", link:"#", source:"샘플", publishedAt:new Date().toISOString(), image:null, description:"설명..." },
+        a5: { id:"a5", title:"테크 기사", link:"#", source:"샘플", publishedAt:new Date().toISOString(), image:null, description:"설명..." },
+      }
+    };
+
+    async function tryFetch(url) {
+      try {
+        const res = await fetch(url + (url.includes('?')?'&':'?') + 't=' + Date.now(), { cache:'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        return { ok: true, data };
+      } catch(e) {
+        return { ok: false, error: String(e) };
+      }
+    }
+
+    async function loadData() {
+      const r = await tryFetch(DATA_URL);
+      if (r.ok) {
+        setBanner('데이터 소스: ' + DATA_URL, 'info');
+        return r.data;
+      }
+      // fallback to sample
+      setBanner('실제 데이터 로드 실패(' + r.error + '). 샘플 데이터로 표시합니다. 레포에 data/latest.json을 추가하면 자동 사용됩니다.', 'alert');
+      return SAMPLE;
+    }
+
+    function setBanner(msg, kind) {
+      EL.banner.textContent = msg;
+      EL.banner.className = (kind === 'alert' ? 'alert' : 'info');
+    }
+
+    // ---------- Rendering ----------
+    let STATE = { data: null, selected: null };
+
+    function getTopicImage(topic) {
+      const ids = topic.articleIds || [];
+      for (const id of ids) {
+        const a = STATE.data.articlesById[id];
+        if (a && a.image) return a.image;
+      }
+      return unsplashByQuery(topic.token);
+    }
+
+    function el(tag, attrs={}, ...children) {
+      const e = document.createElement(tag);
+      for (const [k,v] of Object.entries(attrs||{})) {
+        if (k === 'class') e.className = v;
+        else if (k === 'style') e.setAttribute('style', v);
+        else if (k.startsWith('on') && typeof v === 'function') e.addEventListener(k.substring(2), v);
+        else e.setAttribute(k, v);
+      }
+      for (const c of children) {
+        if (c == null) continue;
+        if (typeof c === 'string') e.appendChild(document.createTextNode(c));
+        else e.appendChild(c);
+      }
+      return e;
+    }
+
+    function render() {
+      const d = STATE.data;
+      EL.grid.innerHTML = '';
+      EL.count.textContent = (d.topics?.length || 0) + '개 토픽';
+      EL.updated.textContent = d.generatedAt ? ('업데이트: ' + relTime(d.generatedAt) + ' · ' + fmtKST(d.generatedAt)) : '—';
+
+      for (const t of (d.topics || [])) {
+        const img = el('img', { class: 'thumb', alt: t.token });
+        img.src = getTopicImage(t);
+        img.onerror = () => { img.remove(); };
+
+        const card = el('div', { class: 'card', onclick: () => openModal(t) },
+          el('div', { class: 'thumb-wrap' },
+            img,
+            el('div', { class: 'fade' }),
+            el('div', { class: 'card-title' }, t.token),
+            el('div', { class: 'card-sub' }, t.score + '개 기사')
+          )
+        );
+        EL.grid.appendChild(card);
+      }
+    }
+
+    function openModal(topic) {
+      STATE.selected = topic;
+      EL.modalTitle.textContent = '“' + topic.token + '” 관련 기사';
+      EL.articles.innerHTML = '';
+      const ids = topic.articleIds || [];
+      for (const id of ids) {
+        const a = STATE.data.articlesById[id];
+        if (!a) continue;
+        const img = a.image ? el('img', { src: a.image, alt: '' }) : null;
+        const item = el('div', { class: 'article' },
+          img || el('div', { style: 'height:160px;background:linear-gradient(135deg,#475569,#0f172a);' }),
+          el('div', { class: 'article-body' },
+            el('a', { href: a.link || '#', target: '_blank', rel: 'noreferrer' }, a.title || '(제목 없음)'),
+            el('div', { class: 'article-meta' }, (a.source || '—') + ' · ' + (a.publishedAt ? fmtKST(a.publishedAt) : ''))
+          )
+        );
+        EL.articles.appendChild(item);
+      }
+      EL.modal.classList.remove('hidden');
+    }
+    function closeModal() {
+      EL.modal.classList.add('hidden');
+      STATE.selected = null;
+    }
+
+    EL.btnRefresh.addEventListener('click', async () => {
+      EL.btnRefresh.disabled = true;
+      try {
+        STATE.data = await loadData();
+        render();
+      } finally {
+        setTimeout(()=> EL.btnRefresh.disabled = false, 300);
+      }
+    });
+    EL.btnClose.addEventListener('click', closeModal);
+    EL.modal.addEventListener('click', (e) => { if (e.target === EL.modal) closeModal(); });
+
+    // Kickoff
+    (async function init(){
+      STATE.data = await loadData();
+      render();
+    })();
+  </script>
+</body>
+</html>
