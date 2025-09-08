@@ -2,8 +2,8 @@ name: Fetch Latest News
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # 30분마다
-  workflow_dispatch: {}      # 수동 실행 버튼
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
   push:
     paths:
       - ".github/workflows/fetch-news.yml"
@@ -11,7 +11,7 @@ on:
       - "package.json"
 
 permissions:
-  contents: write            # latest.json 커밋하려면 필요
+  contents: write
 
 jobs:
   build:
@@ -20,39 +20,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Show tree (sanity check)
-        run: |
-          pwd
-          ls -la
-          ls -la docs || true
-          ls -la scripts || true
-          ls -la .github/workflows || true
-
-      - name: Show Node version
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: node -v
-
-      - name: Show package.json
-        run: cat package.json
 
       - name: Install deps
         run: npm install
 
-      - name: Check rss-parser import
-        run: node -e "import('rss-parser').then(m=>{console.log('rss-parser OK:', Object.keys(m));}).catch(e=>{console.error(e);process.exit(1);})"
-
-      - name: Build latest.json (with debug)
+      - name: Build latest.json
         env:
           FEEDS: ${{ secrets.FEEDS }}
-        run: |
-          set -e
-          node --trace-warnings scripts/fetch-news.mjs
-          echo "---- PREVIEW docs/data/latest.json ----"
-          head -c 2000 docs/data/latest.json || true
-          echo
-          echo "--------------------------------------"
+        run: node scripts/fetch-news.mjs
 
       - name: Commit & push
         run: |
