@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2025-09-08T06:00:00.000Z",
+  "topics": [
+    {
+      "token": "경제",
+      "score": 12,
+      "articleIds": [
+        "https://example.com/a1",
+        "https://example.com/a2"
+      ]
+    },
+    {
+      "token": "정치",
+      "score": 9,
+      "articleIds": [
+        "https://example.com/b1"
+      ]
+    },
+    {
+      "token": "스포츠",
+      "score": 7,
+      "articleIds": []
+    },
+    {
+      "token": "기술",
+      "score": 6,
+      "articleIds": [
+        "https://example.com/c1"
+      ]
+    }
+  ],
+  "articlesById": {
+    "https://example.com/a1": {
+      "id": "https://example.com/a1",
+      "title": "원/달러 변동성 확대",
+      "link": "https://example.com/a1",
+      "description": "시장의 불확실성이 확대…",
+      "source": "Demo",
+      "publishedAt": "2025-09-08T05:30:00.000Z",
+      "image": null
+    },
+    "https://example.com/a2": {
+      "id": "https://example.com/a2",
+      "title": "물가 상승률 둔화 신호",
+      "link": "https://example.com/a2",
+      "description": "전월 대비 완만한 상승",
+      "source": "Demo",
+      "publishedAt": "2025-09-08T04:10:00.000Z",
+      "image": null
+    },
+    "https://example.com/b1": {
+      "id": "https://example.com/b1",
+      "title": "국회 주요 법안 통과",
+      "link": "https://example.com/b1",
+      "description": "여야 협상 타결",
+      "source": "Demo",
+      "publishedAt": "2025-09-08T03:10:00.000Z",
+      "image": null
+    },
+    "https://example.com/c1": {
+      "id": "https://example.com/c1",
+      "title": "AI 반도체 수요 급증",
+      "link": "https://example.com/c1",
+      "description": "데이터센터 투자 확대",
+      "source": "Demo",
+      "publishedAt": "2025-09-08T02:40:00.000Z",
+      "image": null
+    }
+  }
+}

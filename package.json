@@ -1,0 +1,13 @@
+{
+  "name": "news-cards-pages-vanilla",
+  "version": "1.0.1",
+  "private": true,
+  "description": "GitHub Pages static site + GitHub Actions data builder (vanilla single-file frontend).",
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/fetch-news.mjs"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
