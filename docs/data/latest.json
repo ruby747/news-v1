@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-08T07:32:35.923Z",
+  "generatedAt": "2025-09-08T07:32:55.640Z",
   "topics": [
     {
       "token": "조선일보",
@@ -68,11 +68,12 @@
     },
     {
       "token": "kbs",
-      "score": 8,
+      "score": 9,
       "articleIds": [
         "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqcEFzd0Fsc2p6cncyQUg5NE5Ga0pVM0ZiMGtPaDlCeVhPcnlIOUJtSzVwX0xQR21FZFZUWk0xd1diZlZHX0g0UjNJNmF4cThIY3hQU2VMdFRaZw?oc=5",
         "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTmlkMDh6eXJkTFhONkVXWFJZeEI2X3FjaEZWcXY5U2Itc2pSd3ZpRHVpMW5Rb2owZ1ROWEtUYWdIR0lFMGp4U1hjTHhFdnNXRllscEhTS3lrWkZKZE5tUkFINThsSFBiYlk5OE9ieXZhazBCQ2I4eVAzbGdQYWJ3bUJKLXMzRVVXY3F2aHFDQXhVbkc3QTI40gGrAUFVX3lxTE5fZGF1X0JzRUhrR2xzTWU3RThQRERfYmNFR0NzTWVSRTEzeXpUZ0J0Ty1FbnpZd3psVThVMTQ2Mi1sd014Q1dZOUVZUUJLVmtzcENEZGJ2NmlPa0E5R3lmT09LcjNnT2lEVjk2ZGR6ZEtIUmNuRm1sVjVsTWJxUmFhQ1o1dlp2VzZkR0dsQzZvUkNabFI0YzN5VVRqRGNPdkZKYWl2THROejBRSQ?oc=5",
         "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdFpVb1FoclVBTVlPQ2FhMGJpcHhOMHZuNE84Y0NrUzFEX3ZvbVBwLVJkWVdWTG43RUJhUWpOdUVqTGVQSjRfUGJyRmp2aXpfWVR4anJVemFsN2pjMjJ6YndiMHU0dXAzY1FKLWNvSmFYbW10MXNfY2ctU1pnTXdrcS1SZGLSAZgBQVVfeXFMUHdLYUNJTTdtMmFwYUJUU2pEVkw2ajNDNDcxOU9LVHhrOWp3a1BLTHppc2xoYXNWcndnZXJYbTRkU2NLeDZBTnhYSHJkY2stZmxJX2lJcVE4Slhwb0d2YnVybGE1NFBaQVV0OGRrM3J5RUZVMDg0WjcxZmtrTTdOcFhHQUpUYXpuTG4tVXdBSjVzZjYzSm1CS00?oc=5",
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTHhnRmpoLWdWQ0I1RFhTTDJDZW1ON3ZraXN3SkVQYWxfaG10M3RRaklISFBhX0ItRzFxUURKLUt4bFdMczZ4bmVSWlhXYjJXTkl2ak1sS2JrdXJMVmpGMGR1c1NIbE1WLUxFZWNFdFlRcV9XOVlxcHBMcWY5bFJkajFqZFdiaGI0dXNJ?oc=5",
         "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdUQ4M3lxQWxBN2pwcGVtZHYwODJBcURkZUd1WndUVXhWTGphS2NYMXZGc3k1MEVpVl9iVWpTcnNRX0NJUTFvaExrU1RKd3RsN0FXdUJfY2w2TmxaNEFzWENNc3Z5ODE2eEhyRzB4NVdiaHJJYXYyak95c1hZU0gzN19iMHdGNmk3?oc=5",
         "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLM052T0RpM2dkam9nS2ZWX3Z6NFlfUkN1Q25NSFRNUEd3VEtJQmQzWVFTMGtGRG41RkJlZXJNWk5MSUhsZmpFUWNtSGFZN2JLalE?oc=5",
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HVm1vNHA2TVowRldXR3pLd1pWMXloWTNpX21hTTYtbXl5NENmYkhySXczQUVsVmxwMVJoQXZPZElYenVOX3JtZ0hOV0trZFdlcG1HYWU5V0ljRm9BTjJtYVkwYkplem8?oc=5",
@@ -82,10 +83,9 @@
     },
     {
       "token": "연합뉴스",
-      "score": 8,
+      "score": 7,
       "articleIds": [
         "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IdThSNmc3Ry1FbWs5Mm8tb3dPcU9sb0JNV3N2RU9NOEZMZUpyLTVpQWRoZVhCbDVzWnB3bnJsb3E1bFBUdk8tS1o1dTdUUGFuYjhkazg3N2t5d9IBX0FVX3lxTE1NNDhBcmJ5TjRwR0dMcFpFWl9HdXBhbElOb0g5aGpwTUwyMG1vaF9NNTZ2ZFZmeFNyZVBjSW9WOGQ0U05zRHBGOHRwc09jcURfWmZ1X0wtemo0UlBiZmk4?oc=5",
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTHhnRmpoLWdWQ0I1RFhTTDJDZW1ON3ZraXN3SkVQYWxfaG10M3RRaklISFBhX0ItRzFxUURKLUt4bFdMczZ4bmVSWlhXYjJXTkl2ak1sS2JrdXJMVmpGMGR1c1NIbE1WLUxFZWNFdFlRcV9XOVlxcHBMcWY5bFJkajFqZFdiaGI0dXNJ?oc=5",
         "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16T2dHdjE1TUZXUTRlem5MQUY4Zlh6aC1ybXBhQjJDQXRkNnRnWXNsaWV6cjVYYU95ZWVEYmVBRmpFcEd1bDZlTU1nMnZnQy1uVjZPdWl1c25pUdIBX0FVX3lxTFBHdXFNcS04Yks2R3FCdmsxSk9Hc2F5b1IzUkRsYmN2cm5ma0NlWTVYR3BPOS1uOVgzb2taYS1tQXdzN2Jlb3FhcGFoUExWbVF1cHB6UVVIZ1BzUkgydzlF?oc=5",
         "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLM052T0RpM2dkam9nS2ZWX3Z6NFlfUkN1Q25NSFRNUEd3VEtJQmQzWVFTMGtGRG41RkJlZXJNWk5MSUhsZmpFUWNtSGFZN2JLalE?oc=5",
         "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HVm1vNHA2TVowRldXR3pLd1pWMXloWTNpX21hTTYtbXl5NENmYkhySXczQUVsVmxwMVJoQXZPZElYenVOX3JtZ0hOV0trZFdlcG1HYWU5V0ljRm9BTjJtYVkwYkplem8?oc=5",
@@ -320,6 +320,14 @@
       ]
     },
     {
+      "token": "라인",
+      "score": 2,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TVC1zZ1N6YlZmcEpLSnU0UVFmZHJwOVBQX1hkUVZMWFlZUDU0UW5uOG5oSmRQd2VsejZFTGJBNlpnRDRqRm04RENHRXE3Vy1CYVdLZkc0X3pqZmZtcEs0cEE2aHpsOHpFWGhsd0IyM2c0cElv0gF0QVVfeXFMTVRobElfamVsUzVqVTdvYW52WmJtOGRkQ3BQQkhWczFHT1RhdHpBM0pUOGxLdzdFZFh6bDM3R3ZUU1lUY3JRYnNGWldiNGM4Y0FUcURnMzdmY25sUzhLeVdVTnpIbElGb2pLOVEyX2JLaDB0OHU?oc=5",
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTHhnRmpoLWdWQ0I1RFhTTDJDZW1ON3ZraXN3SkVQYWxfaG10M3RRaklISFBhX0ItRzFxUURKLUt4bFdMczZ4bmVSWlhXYjJXTkl2ak1sS2JrdXJMVmpGMGR1c1NIbE1WLUxFZWNFdFlRcV9XOVlxcHBMcWY5bFJkajFqZFdiaGI0dXNJ?oc=5"
+      ]
+    },
+    {
       "token": "마지막",
       "score": 2,
       "articleIds": [
@@ -341,14 +349,6 @@
       "articleIds": [
         "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTWRQaUlOeHNiZTRsWmNRd1Q1ZjdEcTE2eklBOHlGMFN0aG5NRnlTeXpSUHhieWtmclU3WHBaSUlWV21pUm84VXJ0SjgyVDJGSm5MS2VHc0liRVR0S0ZudVBmQW5fbDN0RmxwcDA3N0ZPcnd2ZURadVBnQWFxalluSw?oc=5",
         "https://news.google.com/rss/articles/CBMidkFVX3lxTE12QkNSejdMQXlOTVFmN2tONkNaT0RNbWY5Y2dITHRtWDd0d1hPX2dMb2Eyb2RhYkF5LW5uZXlzSG9sR29raE5NS0hKd1dUN25udWF1TkdqQ1hrWllyaXNqR2lncHlpbXU5cnhFWVF2NkZIYmRFNWc?oc=5"
-      ]
-    },
-    {
-      "token": "미국서",
-      "score": 2,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTHhnRmpoLWdWQ0I1RFhTTDJDZW1ON3ZraXN3SkVQYWxfaG10M3RRaklISFBhX0ItRzFxUURKLUt4bFdMczZ4bmVSWlhXYjJXTkl2ak1sS2JrdXJMVmpGMGR1c1NIbE1WLUxFZWNFdFlRcV9XOVlxcHBMcWY5bFJkajFqZFdiaGI0dXNJ?oc=5",
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxPYW44QmMtcFJhc0JWWUJpa3JyMS1EeTYwc1M1dENKamdtTHlTVXItcUNFaV8xVXNDX1FPRUJUdlBBTmpPZTRncnliXzIzYXF6VG9aazQxQmNxTngyekhXckFhb3BlZFJMaGxQNmVLekJ3Yl90LU9NNzlWNy1Vb2JUSHkwa1RVbC1Nb0FWRmRGdHh2a1FUZlBHVzR3R0FHQdIBsgFBVV95cUxPWWZTT2JVSnU3aG5UQVMycXRkM3A1TTM4MkxsR0N6TGdRN1RMMGU2d3FzZlpPUmV5dV8zeEMwZG5zTGhUUkpBWWlza3ZlUEdmVEZzM0hnUnRwbUZHcHhnU1h5Z1o2VGRLdVpvdGJhbGNibzlwcmFjUkdaZjlPZG4zRUthTHpBR0RFVkFmRlFTSVp5ZldBRmdMaS1pMlhTRTRTOHVRZldzN21zQnBaTVBCay1B?oc=5"
       ]
     },
     {
@@ -495,7 +495,7 @@
       "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTHhnRmpoLWdWQ0I1RFhTTDJDZW1ON3ZraXN3SkVQYWxfaG10M3RRaklISFBhX0ItRzFxUURKLUt4bFdMczZ4bmVSWlhXYjJXTkl2ak1sS2JrdXJMVmpGMGR1c1NIbE1WLUxFZWNFdFlRcV9XOVlxcHBMcWY5bFJkajFqZFdiaGI0dXNJ?oc=5",
       "title": "\"홈 경기 같았어요!\" 손흥민 감동시킨 '대~한민국!', 美에는 악몽...포체티노의 절규 \"제발 좀 와주세요\" - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTHhnRmpoLWdWQ0I1RFhTTDJDZW1ON3ZraXN3SkVQYWxfaG10M3RRaklISFBhX0ItRzFxUURKLUt4bFdMczZ4bmVSWlhXYjJXTkl2ak1sS2JrdXJMVmpGMGR1c1NIbE1WLUxFZWNFdFlRcV9XOVlxcHBMcWY5bFJkajFqZFdiaGI0dXNJ?oc=5",
-      "description": "\"홈 경기 같았어요!\" 손흥민 감동시킨 '대~한민국!', 美에는 악몽...포체티노의 절규 \"제발 좀 와주세요\" 조선일보 손흥민, 이제 차범근-홍명보의 韓 A매치 최다출전 동률 [스한 기록] 네이트 손흥민 원톱, 스리백 수비… ‘월드컵 구상’ 통했다 조선일보 날카로운 ‘손톱’ 미국을 할퀴다 경향신문 원정경기 맞아?…미국서 압도적 '대∼한민국' 응원받은 홍명보호 연합뉴스",
+      "description": "\"홈 경기 같았어요!\" 손흥민 감동시킨 '대~한민국!', 美에는 악몽...포체티노의 절규 \"제발 좀 와주세요\" 조선일보 손흥민, 이제 차범근-홍명보의 韓 A매치 최다출전 동률 [스한 기록] 네이트 손흥민 원톱, 스리백 수비… ‘월드컵 구상’ 통했다 조선일보 날카로운 ‘손톱’ 미국을 할퀴다 경향신문 흥민·재성 ‘92 라인’이 합작한 완승!…“눈빛만 봐도 통하죠” KBS 뉴스",
       "source": "주요 뉴스 - Google 뉴스",
       "publishedAt": "2025-09-07T17:34:45.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
