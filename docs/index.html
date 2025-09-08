@@ -13,12 +13,14 @@
       .glass { backdrop-filter: blur(8px); background: rgba(20,20,20,.4); }
       .scrollbar-hide::-webkit-scrollbar { display: none; }
       .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+      .debug { position: fixed; right: 8px; bottom: 8px; background: #111; color:#9ae6b4; padding:8px 12px; border-radius:10px; font-size:12px; border:1px solid #2f855a; }
     </style>
   </head>
   <body class="bg-neutral-950 text-neutral-100">
     <noscript style="display:block;padding:16px;color:#fff;background:#111">이 페이지는 JavaScript가 필요합니다. 브라우저 설정에서 활성화해 주세요.</noscript>
     <div id="root">로딩 중…</div>
 
+    <!-- UMD libs -->
     <script crossorigin src="https://cdn.jsdelivr.net/npm/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.production.min.js"></script>
 
@@ -27,11 +29,22 @@
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>
 
     <script>
-      if (!window.React || !window.ReactDOM || !window.dayjs) {
-        document.body.innerHTML = '<div style="padding:16px;color:white">필수 스크립트를 불러오지 못했습니다. 네트워크 또는 컨텐츠 차단 설정을 확인해 주세요.</div>';
+      // CDN 로드 가드 + 디버그 토스트
+      function toast(msg) {
+        var el = document.createElement('div');
+        el.className = 'debug';
+        el.textContent = msg;
+        document.body.appendChild(el);
+        setTimeout(()=> el.remove(), 8000);
+      }
+      if (!window.React || !window.ReactDOM) {
+        document.body.innerHTML = '<div style="padding:16px;color:white">React 로드 실패. 네트워크/차단 설정을 확인해 주세요.</div>';
+      } else {
+        if (!window.dayjs) toast('경고: dayjs 미로딩, 시간 표시 제한');
+        if (!('dayjs_plugin_relativeTime' in window)) toast('경고: relativeTime 플러그인 미로딩, "n분 전" 비활성');
       }
     </script>
 
-    <script src="./app.js"></script>
+    <script src="./app.js" defer></script>
   </body>
 </html>

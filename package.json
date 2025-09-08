@@ -1,8 +1,8 @@
 {
   "name": "news-cards-gh-pages",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
-  "description": "GitHub Pages static site + GitHub Actions로 RSS를 JSON으로 빌드",
+  "description": "GitHub Pages static site + GitHub Actions로 RSS를 JSON으로 빌드 (ultra-hardened)",
   "type": "module",
   "scripts": {
     "build:data": "node scripts/fetch-news.mjs"

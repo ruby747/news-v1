@@ -83,7 +83,7 @@ async function fetchAllFeeds() {
 
 function hashHue(str) {
   let h = 0;
-  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(0)) >>> 0;
   return h % 360;
 }
 function makeReadableHsl(token) {
