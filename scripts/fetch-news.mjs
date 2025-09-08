@@ -9,7 +9,7 @@ const FEEDS = (process.env.FEEDS ? process.env.FEEDS.split(',') : [
 
 const parser = new Parser({
   timeout: 15000,
-  headers: { 'User-Agent': 'NewsCardsPages/1.0 (+contact: you@example.com)' }
+  headers: { 'User-Agent': 'NewsCardsPages/2.0 (+contact: you@example.com)' }
 });
 
 function normalizeText(s = '') {
@@ -29,7 +29,7 @@ function tokenize(text) {
   });
 }
 
-function pickTopKeywords(articles, maxKeywords = 32) {
+function pickTopKeywords(articles, maxKeywords = 40) {
   const freq = new Map();
   for (const a of articles) {
     const text = `${a.title} ${a.description || ''}`;
@@ -58,6 +58,8 @@ async function fetchAllFeeds() {
       const link = item.link || item.guid || item.id || '';
       const description = normalizeText(item.contentSnippet || item.content || item.summary || '');
       const pub = item.isoDate || item.pubDate || null;
+      // try to read image from RSS fields if present
+      const enclosureUrl = item.enclosure?.url || item['media:content']?.url || null;
       if (!title || !link) continue;
       articles.push({
         id: link,
@@ -65,10 +67,12 @@ async function fetchAllFeeds() {
         link,
         description,
         source: normalizeText(feed.title || 'RSS'),
-        publishedAt: pub ? new Date(pub).toISOString() : null
+        publishedAt: pub ? new Date(pub).toISOString() : null,
+        image: enclosureUrl || null
       });
     }
   }
+  // dedupe
   const seen = new Set();
   const deduped = [];
   for (const a of articles) {
@@ -81,24 +85,55 @@ async function fetchAllFeeds() {
   return deduped;
 }
 
-function hashHue(str) {
-  let h = 0;
-  for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(0)) >>> 0;
-  return h % 360;
-}
-function makeReadableHsl(token) {
-  const hue = hashHue(token);
-  return `hsl(${hue}deg 65% 50%)`;
+// Try to fetch OpenGraph/Twitter image for some articles (limits applied)
+async function enrichOgImages(articles) {
+  const limit = parseInt(process.env.MAX_OG_FETCH || '50', 10);
+  const timeoutMs = parseInt(process.env.OG_TIMEOUT_MS || '7000', 10);
+  const userAgent = 'NewsCardsPages/2.0 (+contact: you@example.com)';
+  const subset = articles.filter(a => !a.image).slice(0, limit);
+  const concurrent = parseInt(process.env.OG_CONCURRENCY || '5', 10);
+
+  async function findOg(url) {
+    try {
+      const ctrl = new AbortController();
+      const t = setTimeout(() => ctrl.abort(), timeoutMs);
+      const res = await fetch(url, { headers: { 'user-agent': userAgent }, signal: ctrl.signal });
+      clearTimeout(t);
+      if (!res.ok) return null;
+      const html = await res.text();
+      // allow both property and name
+      const meta = (name) => {
+        const rx = new RegExp(`<meta[^>]+(?:property|name)=["']${name}["'][^>]+content=["']([^"']+)["'][^>]*>`, 'i');
+        const m = html.match(rx);
+        return m ? m[1] : null;
+      };
+      return meta('og:image') || meta('twitter:image') || null;
+    } catch {
+      return null;
+    }
+  }
+
+  let i = 0;
+  async function worker() {
+    while (i < subset.length) {
+      const idx = i++;
+      const a = subset[idx];
+      const img = await findOg(a.link);
+      if (img) a.image = img;
+    }
+  }
+  const workers = Array.from({length: concurrent}, worker);
+  await Promise.all(workers);
 }
 
 const outPath = path.join('docs', 'data', 'latest.json');
 
 const articles = await fetchAllFeeds();
-const topKeywords = pickTopKeywords(articles, 32);
+await enrichOgImages(articles);
+const topKeywords = pickTopKeywords(articles, 40);
 const topics = topKeywords.map(k => ({
   token: k.token,
   score: k.score,
-  color: makeReadableHsl(k.token),
   articleIds: k.articleIds
 }));
 
