@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>News Cards — Top 10 Ranking</title>
+<meta name="color-scheme" content="dark light">
+<style>
+  :root { --bg:#0a0a0a; --fg:#e5e5e5; --muted:#9ca3af; --card:#121212; --accent:#60a5fa; --border:#2a2a2a; --ring:#5b5b5b; }
+  html,body { height:100%; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",system-ui,Segoe UI,Roboto,Helvetica,Arial; }
+  .container { max-width: 960px; margin: 0 auto; padding: 16px; }
+  .header { position: sticky; top:0; z-index:50; backdrop-filter: blur(8px); background: rgba(10,10,10,.65); border-bottom: 1px solid var(--border); }
+  .header .inner { display:flex; align-items:center; gap:12px; padding: 12px 16px; }
+  .title { font-weight: 800; font-size: 20px; letter-spacing: .2px; }
+  .meta { font-size: 12px; color: var(--muted); }
+  .button { padding: 8px 12px; font-size: 13px; border-radius: 10px; background:#1f1f1f; border:1px solid var(--border); color:var(--fg); cursor:pointer; text-decoration:none; display:inline-block; }
+  .error { padding: 12px; border-radius: 12px; background: rgba(127,29,29,.25); border: 1px solid rgba(127,29,29,.6); color:#fecaca; font-size:13px; display:none; }
+
+  /* Chips */
+  .topics-row { display:flex; gap:8px; overflow:auto; padding: 6px 2px 10px; }
+  .chip { flex:0 0 auto; padding: 8px 12px; border-radius: 999px; border:1px solid var(--border); background:#141414; color:var(--fg); font-size:13px; cursor:pointer; white-space:nowrap; }
+  .chip:hover { background:#1a1a1a; border-color:#3a3a3a; }
+
+  /* Ranking list */
+  .ranking { display:grid; gap:10px; margin-top:10px; }
+  .rank-item { display:flex; align-items:center; gap:12px; padding:12px 14px; border:1px solid var(--border); border-radius:14px; background:#121212; cursor:pointer; }
+  .rank-num { width:32px; height:32px; display:inline-flex; align-items:center; justify-content:center; border-radius:999px; background:#0f172a; color:#e5e7eb; font-weight:800; font-size:12px; border:1px solid #27324a; }
+  .muted { color:var(--muted); font-size:12px; }
+
+  /* Articles Modal */
+  .modal { position: fixed; inset: 0; z-index: 100; display: none; }
+  .modal.open { display:block; }
+  .modal .backdrop { position:absolute; inset:0; background: rgba(0,0,0,.6); }
+  .modal .panel { position:absolute; left:50%; transform: translateX(-50%); top: 60px; width:min(96%, 960px); border-radius: 18px; overflow:hidden; border:1px solid var(--border); background:var(--bg); }
+  .modal .panel .head { display:flex; align-items:center; justify-content:space-between; padding: 12px 16px; border-bottom:1px solid var(--border); }
+  .modal .panel .title { font-weight: 700; }
+  .modal .panel .body { padding: 16px; }
+  .articles { display:grid; gap: 12px; grid-template-columns: repeat(1,minmax(0,1fr)); }
+  @media (min-width: 720px) { .articles { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+  .article { border-radius: 14px; border:1px solid var(--border); overflow:hidden; background:#121212; }
+  .article img { width:100%; height: 160px; object-fit:cover; display:block; }
+  .article .p { padding:10px 12px; }
+  .article a { color:var(--accent); text-decoration:none; font-weight:600; }
+
+  .toast { position: fixed; right: 8px; bottom: 8px; background: #111; color:#9ae6b4; padding:8px 12px; border-radius:10px; font-size:12px; border:1px solid #2f855a; display:none; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="inner container">
+      <div class="title">Top 10 Ranking</div>
+      <div id="meta" class="meta">—</div>
+      <div style="flex:1"></div>
+      <a href="index.html" class="button">메인으로</a>
+    </div>
+  </div>
+
+  <div class="container" style="padding-top:16px;">
+    <div id="error" class="error"></div>
+    <h2 style="margin:10px 0 8px 2px;font-size:16px;font-weight:700;">인기 토픽</h2>
+    <div id="topTopics" class="topics-row"></div>
+    <h2 style="margin:10px 0 10px 2px;font-size:16px;font-weight:700;">Top 10 순위</h2>
+    <div id="ranking" class="ranking"></div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="backdrop" onclick="closeModal()"></div>
+    <div class="panel">
+      <div class="head">
+        <div id="modalTitle" class="title"></div>
+        <button class="button" onclick="closeModal()">닫기</button>
+      </div>
+      <div class="body">
+        <div id="articles" class="articles"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+<script>
+(function(){
+  const $ = (sel) => document.querySelector(sel);
+  const meta = $('#meta');
+  const err = $('#error');
+  const topTopicsRow = $('#topTopics');
+  const rankingBox = $('#ranking');
+  const modal = $('#modal');
+  const modalTitle = $('#modalTitle');
+  const articlesBox = $('#articles');
+  const toast = $('#toast');
+
+  function showToast(msg){ toast.textContent = msg; toast.style.display = 'block'; setTimeout(()=> toast.style.display='none', 5000); }
+  function formatKST(ts){ try{ if(!ts) return ''; const d=new Date(ts); return new Intl.DateTimeFormat('ko-KR',{dateStyle:'medium',timeStyle:'short',hour12:false,timeZone:'Asia/Seoul'}).format(d);}catch(e){return ts||'';} }
+  function hash(s){ let h=0; for(let i=0;i<s.length;i++) h=(h*31+s.charCodeAt(i))>>>0; return h>>>0; }
+  function unsplash(q, w=960, h=540){ const sig=(Date.now()/(1000*60*60)|0)+hash(q); return `https://source.unsplash.com/${w}x${h}/?${encodeURIComponent(q)}&sig=${sig}`; }
+  function openModal(topic, data){
+    modal.classList.add('open');
+    modalTitle.textContent = `“${topic.token}” 관련 기사`;
+    articlesBox.innerHTML = '';
+    const ids = topic.articleIds || [];
+    const items = ids.map(id => data.articlesById[id]).filter(Boolean);
+    if (items.length === 0) { const p=document.createElement('div'); p.className='muted'; p.textContent='선택된 토픽의 기사가 아직 없어요.'; articlesBox.appendChild(p); return; }
+    for (const a of items) {
+      const card = document.createElement('div'); card.className = 'article';
+      const im = document.createElement('img');
+      const fallback = () => { im.remove(); };
+      if (a.image) { im.src = a.image; im.alt=''; im.onerror = () => { im.remove(); }; card.appendChild(im); }
+      else { im.src = unsplash(topic.token, 640, 360); im.alt=''; im.onerror = fallback; card.appendChild(im); }
+      const p = document.createElement('div'); p.className='p';
+      const link = document.createElement('a'); link.href = a.link; link.target='_blank'; link.rel='noreferrer'; link.textContent = a.title; p.appendChild(link);
+      const meta = document.createElement('div'); meta.className='muted'; meta.textContent = `${a.source || ''} ${a.publishedAt ? '· '+formatKST(a.publishedAt) : ''}`; p.appendChild(meta);
+      card.appendChild(p); articlesBox.appendChild(card);
+    }
+  }
+  window.closeModal = () => { modal.classList.remove('open'); };
+
+  async function load(){
+    try {
+      err.style.display = 'none';
+      const res = await fetch(`data/latest.json?t=${Date.now()}`, { cache:'no-store' });
+      if (!res.ok) throw new Error(`데이터 로드 실패(${res.status})`);
+      const data = await res.json();
+      meta.textContent = data.generatedAt ? `업데이트: ${formatKST(data.generatedAt)}` : '—';
+      const topics = (data.topics || []).slice().sort((a,b)=> b.score - a.score);
+      // chips
+      topTopicsRow.innerHTML = '';
+      topics.slice(0, 10).forEach((t) => {
+        const chip = document.createElement('div'); chip.className = 'chip'; chip.textContent = `${t.token}`; chip.title = `${t.score}개 기사`;
+        chip.onclick = () => openModal(t, data);
+        topTopicsRow.appendChild(chip);
+      });
+      // ranking
+      rankingBox.innerHTML = '';
+      topics.slice(0, 10).forEach((t, i) => {
+        const item = document.createElement('div'); item.className = 'rank-item'; item.onclick = () => openModal(t, data);
+        const num = document.createElement('div'); num.className = 'rank-num'; num.textContent = i+1; item.appendChild(num);
+        const text = document.createElement('div'); text.innerHTML = `<div style="font-weight:700">${t.token}</div><div class=\"muted\">${t.score}개 기사</div>`; item.appendChild(text);
+        rankingBox.appendChild(item);
+      });
+    } catch (e) {
+      console.error(e); err.textContent = '데이터를 불러오지 못했습니다: ' + e.message; err.style.display = 'block'; showToast('에러: ' + e.message);
+    }
+  }
+  load();
+})();
+</script>
+</body>
+</html>
+
