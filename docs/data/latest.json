@@ -1,56 +1,54 @@
 {
-  "generatedAt": "2026-02-14T21:44:01.162Z",
+  "generatedAt": "2026-02-14T22:14:05.292Z",
   "topics": [
     {
       "token": "net",
-      "score": 18,
+      "score": 17,
       "articleIds": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQQUVCU2x2ZTZhOG5paTVaQmQ0cFF1Mk9lUVhlUWhJSGhRZmNiak5BTU9UOU96aWpvVll5TnBYUlVJVmlOZENXVG5YNUxrcGlNRFk3YVpnMEFZNGlx?oc=5",
         "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yTnRrT1RDV0ZnZFlJZmVqcG9VaTVUUm1WRE9VLTN4YnJybEF5YXpiUGZFczNIVHRLNHN5OWJyUmNKWlNIaUVTWnZydGtiZTlYSkRDMGlzUnVPa3loTmVGakV5d0Y1NFItSHhqQ0VkalgwbF81?oc=5",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUndDU0tzNlJZb21jRkpaZzF4X2JNM2xCT0tqUUc0RmRQaEd1TkFxV1h5QnNIc0ZwYUJ1WnN6dWJzLWU0bjdaX1pfZDhYSXo3Tnd5bnJFQ0RRb2hEU0RoZnUyN2Z5UkdtcWxUWXlZY2RRUVpFYmlyWkx1NEZfU3l3NUljLXVUb1FjYl9ZbUVpZ1PSAaQBQVVfeXFMTWhBNExnQTZVVnlldUVkQ2hKRXZvNVpOOFI4UjVSbFI1Z1RuczdNcVUzYVBvTl9PSmxkRHRWNDlTY3hqSTBOWlgwRGlEWHRlRkZrdXJfQkF4NDhlN0RVVGdiVHFXbUVUcVRCX05hRDFhR1NWLW9qUDZNc0hCVlpTVW0tSkJOdHZJQkxEampKZHY4VVVQMnE4WXVUeWpPVFk0UGxBSmY?oc=5",
         "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
         "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQzVYZmV0VDRfQ2VGUzBfZ0Z4M0VDeUtoRmF4M3JKY25EWm5mNnltOGF5U2lSeWhlSFNneFBTNnlmeUdSeC1kSS1pb0c4Q0hxaUdPeU1Vamt5TzJjc0dVcy1NVk1qMGZMTFl6c2hMX2hoWllQRXc2ZjFocEZnaFRvQzFjRUd3aHdleFdKUmVfenfSAaQBQVVfeXFMTjJuc1liRFJEdDM5WXpQVGxhM0Y4NEFUcVNJSVJkZXpvSzQxTS1YSENMUTVxZWtWYV9NLTdNV25pdVE4NnRZbmlZd0ozX2pzbnpaYTdWWHBZMlM2WkIycnN5cEJmUXllVGJJYTZudl9HX1BINFFpQ1J4RGxXZnFlbF9FLUR5WjJiT3BsdHdBLUhvVTFkRlpkaDV1dEJFZE10M2Q5TC0?oc=5",
         "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeVRoQkRSVUV6bEllQmxLcTFranBEc0V3eDRzaWFiSlM3THU2amczWDRKTy13a1pYakZNb3JuSkgwci1mM1p2dEhldFRyVmpjUDI1NmpVdVlxNmxNd0RRbWgwcnpBc1dxLUE?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FT1ZtZDhTUkxvSkZGRV9hVjVIczl4eC1GeW83UTFXOGhOMVZJT2RPSEpQOFFlOTR2MmhwYTNURlczV1NqazFVMEtfbUN4VURfV1c0OWx5bTc3UWM?oc=5",
         "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rMUZrOThlQXh6aHNwZGVRa0plSlZLcTA1VWRuVmU1a3BSLWwxblB0VktkSm5uVGNpT3JrMEJUcUFJcUZCOVR5VkUxeUhGdnFKZlNTcU5EZ1pMMEFHZGZGTHg5R3BmcldYU0FLZDBSdlBpSjA?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Rdm9hWEI1NXRBVnVDMUhhX3U0NUVKQnVtNHlMenJWcGVtR1ZOb0hRZE43YjBQQmtVUnB3ME1zUU5ENm8wQmZxZGZ4UEM1bDU5MEpXMkdKckxDS3FQY1HSAWNBVV95cUxNR2wtMl91aEtvS1pyZFp3QVpKazgyTl9oWXRCbXBFQ2ZkcmFXTzV1MDBhRnRzbWNwNm1ndEQtRUt6LTNTZHVfRXh6dGpFWnkyWWp0ZUpUcE43RkJCekI5WXZfSHM?oc=5",
         "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xbmVIcHlaMVhIUVYwYUJieGMwcXNDek4yZzZiWE9PbVQ5c05GQjFyc1Jiajdod09hQnNjczJaQzl6OFJ1eHo4VXcwa2RMNlIyb3V3bmZja1pwVFZPcmfSAYMBQVVfeXFMTkdXWU5WeTBRMUtadkt3VEZVTGlJMk4wV3dRQ2ZOT01fNDhpblctT0lSNnBrTks2VHFiUG1QLWItNHc4UjRpTE9HaWNkQ3I2S2lkMURYM005OGw0M0J5eUljQTFjMmoyZmtMRlJQSlFtZktTQUQ2VWVVU2xGWm1qdXYzY2s?oc=5",
         "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0k0eDFtblhldnFiUjM2bmU0dUVPbUJBcWF2WjRuQVAwVDVQLTlNLTFHMjFvVkplLUFFNVlmVWhPRm41N3VBZDdhMkhHVGRMa1o4LTIxRFRWTHJ0dGJuSW0yWXo5MTF3ZEk0UEYwdk1wbnh4VkI4NGx0SjFpd18yMlBQX1FQVUc50gGcAUFVX3lxTE9nM2g5UURvb1dkYWZzUmhFX2ozNEl3WkRmVzJRVGcxV2YzOERvOVNLSUxyYXBCZG5XNXBKTUhUemlwTW5CWTNpb3lpSU5HV0ZIRU5Xc01TTXRLUkFGdDVXOU9fbFFjZ28tOGJraFVsSGRmcjZ1NWdVanhTSmVOWU9nOU9yQlZRckYzSF9SQzZQNnNJWW85NDRlSUtlWQ?oc=5",
         "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zb2ttblplUzhvcTdWV2QzT3ZUZk43UlNTWGF3WWduRElMRnVaamJDTDh3ak5ITTBmcjJoN2lIUzdaTW9YM3d4MVpQVWRfWXFiVlZ6cUNjTV80d9IBX0FVX3lxTFA1bUIyT29vVmRhVkpJeEVRNWJZWFZqUTdWa2VzOTZKVXFfOF81Ui16UXRWRnFhVm1lMWVscl9hNjZOZFNQdVBrVzNBem1JbXBKT0UwUUR6N1pibWlHQnd3?oc=5",
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3bU9aQ0YxcEtwc3dOVE92Tl9zVkZTV2drcHpSdk9uaGsyd1FYOFljV0lBY0ZUcjRwcFI0ZU10cEp3U28zTm9vZUVyNnhWVWs?oc=5",
         "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UeUU2N2tTckx4UVAzYmZ6WFVITF9DSjZnSi1QcFpaOTljdDRrQU9ycEJHVW9aajBDX2tlNkxyRWhzbjhmdlEyRmtrQ2l1RmdwektBbw?oc=5",
         "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VLTkwVVg5Y3A2MGFQazlqUHVoa3ZILW1QSVFCOHoyVGdsWFJWLTAtYnRlaW51UFdGNzgteEdVdm5wTHQ1ZlNUcnNaRl9VeGtWQmcyUzdzdGlRUXVoV19Hc0ZtTDZmV3hUblRuR24weWlBbHhU?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5",
         "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RbzA3dkZtckJtdFBBUmx4bEpYVjItRjZzWmJ3Mk9kcGw3Wkw1VUNVLVRfQ01McllSZlUzRFgxMkdNTUc1M2Z5VDd2SS1iX29MQ1dLRTJlR2Fnd192WTRHakVENXQ?oc=5",
         "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vaFdvM1ZsZFROUDZad1ZxUTloeS1GUWRkTFNCV3ZlYnNRa2VUN0J5UmptYVhMWUJwN2VyaEdWR19JQUpYZzhBSGRIX3Z2bnVqbzlWeU5kVHdkUXNZeE1GdzFxWl9vOGhJcjk3TDVLTnI?oc=5",
-        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5",
         "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RNW9FY05aSDladThMM2RTcGIycjBOVlFnS0VhOWdVeV9ha1hMcEF0N3pYLUgtTHoyaVk2SGZ2MjVPLXBYQ0pNQVJYOVRJdUYzbXVFRzduNVJYU29MRmpVaW9BVjRld0xkYmNV?oc=5"
       ]
     },
     {
       "token": "daum",
-      "score": 17,
+      "score": 16,
       "articleIds": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQQUVCU2x2ZTZhOG5paTVaQmQ0cFF1Mk9lUVhlUWhJSGhRZmNiak5BTU9UOU96aWpvVll5TnBYUlVJVmlOZENXVG5YNUxrcGlNRFk3YVpnMEFZNGlx?oc=5",
         "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yTnRrT1RDV0ZnZFlJZmVqcG9VaTVUUm1WRE9VLTN4YnJybEF5YXpiUGZFczNIVHRLNHN5OWJyUmNKWlNIaUVTWnZydGtiZTlYSkRDMGlzUnVPa3loTmVGakV5d0Y1NFItSHhqQ0VkalgwbF81?oc=5",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUndDU0tzNlJZb21jRkpaZzF4X2JNM2xCT0tqUUc0RmRQaEd1TkFxV1h5QnNIc0ZwYUJ1WnN6dWJzLWU0bjdaX1pfZDhYSXo3Tnd5bnJFQ0RRb2hEU0RoZnUyN2Z5UkdtcWxUWXlZY2RRUVpFYmlyWkx1NEZfU3l3NUljLXVUb1FjYl9ZbUVpZ1PSAaQBQVVfeXFMTWhBNExnQTZVVnlldUVkQ2hKRXZvNVpOOFI4UjVSbFI1Z1RuczdNcVUzYVBvTl9PSmxkRHRWNDlTY3hqSTBOWlgwRGlEWHRlRkZrdXJfQkF4NDhlN0RVVGdiVHFXbUVUcVRCX05hRDFhR1NWLW9qUDZNc0hCVlpTVW0tSkJOdHZJQkxEampKZHY4VVVQMnE4WXVUeWpPVFk0UGxBSmY?oc=5",
         "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
         "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQzVYZmV0VDRfQ2VGUzBfZ0Z4M0VDeUtoRmF4M3JKY25EWm5mNnltOGF5U2lSeWhlSFNneFBTNnlmeUdSeC1kSS1pb0c4Q0hxaUdPeU1Vamt5TzJjc0dVcy1NVk1qMGZMTFl6c2hMX2hoWllQRXc2ZjFocEZnaFRvQzFjRUd3aHdleFdKUmVfenfSAaQBQVVfeXFMTjJuc1liRFJEdDM5WXpQVGxhM0Y4NEFUcVNJSVJkZXpvSzQxTS1YSENMUTVxZWtWYV9NLTdNV25pdVE4NnRZbmlZd0ozX2pzbnpaYTdWWHBZMlM2WkIycnN5cEJmUXllVGJJYTZudl9HX1BINFFpQ1J4RGxXZnFlbF9FLUR5WjJiT3BsdHdBLUhvVTFkRlpkaDV1dEJFZE10M2Q5TC0?oc=5",
         "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeVRoQkRSVUV6bEllQmxLcTFranBEc0V3eDRzaWFiSlM3THU2amczWDRKTy13a1pYakZNb3JuSkgwci1mM1p2dEhldFRyVmpjUDI1NmpVdVlxNmxNd0RRbWgwcnpBc1dxLUE?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FT1ZtZDhTUkxvSkZGRV9hVjVIczl4eC1GeW83UTFXOGhOMVZJT2RPSEpQOFFlOTR2MmhwYTNURlczV1NqazFVMEtfbUN4VURfV1c0OWx5bTc3UWM?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Rdm9hWEI1NXRBVnVDMUhhX3U0NUVKQnVtNHlMenJWcGVtR1ZOb0hRZE43YjBQQmtVUnB3ME1zUU5ENm8wQmZxZGZ4UEM1bDU5MEpXMkdKckxDS3FQY1HSAWNBVV95cUxNR2wtMl91aEtvS1pyZFp3QVpKazgyTl9oWXRCbXBFQ2ZkcmFXTzV1MDBhRnRzbWNwNm1ndEQtRUt6LTNTZHVfRXh6dGpFWnkyWWp0ZUpUcE43RkJCekI5WXZfSHM?oc=5",
         "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xbmVIcHlaMVhIUVYwYUJieGMwcXNDek4yZzZiWE9PbVQ5c05GQjFyc1Jiajdod09hQnNjczJaQzl6OFJ1eHo4VXcwa2RMNlIyb3V3bmZja1pwVFZPcmfSAYMBQVVfeXFMTkdXWU5WeTBRMUtadkt3VEZVTGlJMk4wV3dRQ2ZOT01fNDhpblctT0lSNnBrTks2VHFiUG1QLWItNHc4UjRpTE9HaWNkQ3I2S2lkMURYM005OGw0M0J5eUljQTFjMmoyZmtMRlJQSlFtZktTQUQ2VWVVU2xGWm1qdXYzY2s?oc=5",
         "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0k0eDFtblhldnFiUjM2bmU0dUVPbUJBcWF2WjRuQVAwVDVQLTlNLTFHMjFvVkplLUFFNVlmVWhPRm41N3VBZDdhMkhHVGRMa1o4LTIxRFRWTHJ0dGJuSW0yWXo5MTF3ZEk0UEYwdk1wbnh4VkI4NGx0SjFpd18yMlBQX1FQVUc50gGcAUFVX3lxTE9nM2g5UURvb1dkYWZzUmhFX2ozNEl3WkRmVzJRVGcxV2YzOERvOVNLSUxyYXBCZG5XNXBKTUhUemlwTW5CWTNpb3lpSU5HV0ZIRU5Xc01TTXRLUkFGdDVXOU9fbFFjZ28tOGJraFVsSGRmcjZ1NWdVanhTSmVOWU9nOU9yQlZRckYzSF9SQzZQNnNJWW85NDRlSUtlWQ?oc=5",
         "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zb2ttblplUzhvcTdWV2QzT3ZUZk43UlNTWGF3WWduRElMRnVaamJDTDh3ak5ITTBmcjJoN2lIUzdaTW9YM3d4MVpQVWRfWXFiVlZ6cUNjTV80d9IBX0FVX3lxTFA1bUIyT29vVmRhVkpJeEVRNWJZWFZqUTdWa2VzOTZKVXFfOF81Ui16UXRWRnFhVm1lMWVscl9hNjZOZFNQdVBrVzNBem1JbXBKT0UwUUR6N1pibWlHQnd3?oc=5",
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3bU9aQ0YxcEtwc3dOVE92Tl9zVkZTV2drcHpSdk9uaGsyd1FYOFljV0lBY0ZUcjRwcFI0ZU10cEp3U28zTm9vZUVyNnhWVWs?oc=5",
         "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UeUU2N2tTckx4UVAzYmZ6WFVITF9DSjZnSi1QcFpaOTljdDRrQU9ycEJHVW9aajBDX2tlNkxyRWhzbjhmdlEyRmtrQ2l1RmdwektBbw?oc=5",
         "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VLTkwVVg5Y3A2MGFQazlqUHVoa3ZILW1QSVFCOHoyVGdsWFJWLTAtYnRlaW51UFdGNzgteEdVdm5wTHQ1ZlNUcnNaRl9VeGtWQmcyUzdzdGlRUXVoV19Hc0ZtTDZmV3hUblRuR24weWlBbHhU?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5",
         "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RbzA3dkZtckJtdFBBUmx4bEpYVjItRjZzWmJ3Mk9kcGw3Wkw1VUNVLVRfQ01McllSZlUzRFgxMkdNTUc1M2Z5VDd2SS1iX29MQ1dLRTJlR2Fnd192WTRHakVENXQ?oc=5",
         "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vaFdvM1ZsZFROUDZad1ZxUTloeS1GUWRkTFNCV3ZlYnNRa2VUN0J5UmptYVhMWUJwN2VyaEdWR19JQUpYZzhBSGRIX3Z2bnVqbzlWeU5kVHdkUXNZeE1GdzFxWl9vOGhJcjk3TDVLTnI?oc=5",
-        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5",
         "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RNW9FY05aSDladThMM2RTcGIycjBOVlFnS0VhOWdVeV9ha1hMcEF0N3pYLUgtTHoyaVk2SGZ2MjVPLXBYQ0pNQVJYOVRJdUYzbXVFRzduNVJYU29MRmpVaW9BVjRld0xkYmNV?oc=5"
       ]
     },
     {
       "token": "조선일보",
-      "score": 12,
+      "score": 13,
       "articleIds": [
         "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GeXZOLTRHZ1I1TS1Oa3lmczlwTEhsYnFRUkUtX3NQVDVtQ2QtNTFXODY4TjBVOXF1d3NZUS1YaFVJSUlhdzQ4WVpHeWd6WlJMdzlzeU8wb1ZKcmpQX3JiaUd0OGFVWTNPYzFuWTFueVdBYmc0dkE?oc=5",
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
@@ -58,11 +56,12 @@
         "https://news.google.com/rss/articles/CBMidkFVX3lxTE44U201Qi1KQnp1MnV2LXRpZ0R1VDB2Sy1mVWNsRjV0U19fMzVCN3RPUklscXgzMHB0aWpXTXQ5eXRXTHIwNHhUTlpaZW1Xa1pEa2liTHBxcHpzSWZyU2RhUkk0dlpTcmdENVgtaDhrTFpjNk43VkE?oc=5",
         "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yTnRrT1RDV0ZnZFlJZmVqcG9VaTVUUm1WRE9VLTN4YnJybEF5YXpiUGZFczNIVHRLNHN5OWJyUmNKWlNIaUVTWnZydGtiZTlYSkRDMGlzUnVPa3loTmVGakV5d0Y1NFItSHhqQ0VkalgwbF81?oc=5",
         "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyOTB2Ylg0M3lzd3ZrWG1HTS1vbFFtc0NKTWhzakIyY3V5djRVWF9KcS1nUWxBYmpaRDBJOGhBLTFRUW9PRWdCdEp5YXRTTWxZUTNta1h2N2FrWUdtREVKSkJfQldidTV1Z2tVRkIxeWRYVU5xblE?oc=5",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUndDU0tzNlJZb21jRkpaZzF4X2JNM2xCT0tqUUc0RmRQaEd1TkFxV1h5QnNIc0ZwYUJ1WnN6dWJzLWU0bjdaX1pfZDhYSXo3Tnd5bnJFQ0RRb2hEU0RoZnUyN2Z5UkdtcWxUWXlZY2RRUVpFYmlyWkx1NEZfU3l3NUljLXVUb1FjYl9ZbUVpZ1PSAaQBQVVfeXFMTWhBNExnQTZVVnlldUVkQ2hKRXZvNVpOOFI4UjVSbFI1Z1RuczdNcVUzYVBvTl9PSmxkRHRWNDlTY3hqSTBOWlgwRGlEWHRlRkZrdXJfQkF4NDhlN0RVVGdiVHFXbUVUcVRCX05hRDFhR1NWLW9qUDZNc0hCVlpTVW0tSkJOdHZJQkxEampKZHY4VVVQMnE4WXVUeWpPVFk0UGxBSmY?oc=5",
         "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFhhSjVLSmRsZl9JZTFfTE5UWkh4YlRXMTUwWXNWc3l4T3VPMV9IY3dtVFplSm9zeHFtMWlhUmhFTXdTZ2tmVGM0RlBTSWRzamcyUFBMNkE3SG1zQUt0eWZqTFNBM1huMmMtVmo3eHlPQWFSdUctUXdzcUF5MDlRVDVpN0Y2aFVudnRmRVBZdkh1djhLN1NpWVNCOUbSAbABQVVfeXFMTWRMWmZ6eTVXVlVpb2dndWhHOWVwSjFBMUtzMGVmM0lUb05BQldkaW1nRE1mb21LVXY4bFNWeWZhNXhvN2xEZ2dDbmpTU0wwR2k1TzZlaTI2TmNiRmZrYWpDNDRQbHBqQkVFME53TW9xWFZnQ2hsYTJMYWdJd1hsbkRtWjNyX1ZlMnlETF83Z0lCSm9tTUdaRTRDcjB2SHVCSXlLSVJVSDJfRjl2UFNDODM?oc=5",
         "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQzVYZmV0VDRfQ2VGUzBfZ0Z4M0VDeUtoRmF4M3JKY25EWm5mNnltOGF5U2lSeWhlSFNneFBTNnlmeUdSeC1kSS1pb0c4Q0hxaUdPeU1Vamt5TzJjc0dVcy1NVk1qMGZMTFl6c2hMX2hoWllQRXc2ZjFocEZnaFRvQzFjRUd3aHdleFdKUmVfenfSAaQBQVVfeXFMTjJuc1liRFJEdDM5WXpQVGxhM0Y4NEFUcVNJSVJkZXpvSzQxTS1YSENMUTVxZWtWYV9NLTdNV25pdVE4NnRZbmlZd0ozX2pzbnpaYTdWWHBZMlM2WkIycnN5cEJmUXllVGJJYTZudl9HX1BINFFpQ1J4RGxXZnFlbF9FLUR5WjJiT3BsdHdBLUhvVTFkRlpkaDV1dEJFZE10M2Q5TC0?oc=5",
         "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc2pwSmEyWThTV3FiVVQxdVhsLVlCSnozQ0JEeDFZNUpZWDVya3R3Q1lxd3pqRmlHT21qdjlHLXBtTkxLY2F6TWZFY1M0LTdDUGlxZVJXeG9oWllvc1d4b2lNalk0RnYySXlORDRPM0pKekxZeW5jR1B2ellrb0NtaEhhUUVrbHh0VnRmLUJqOF9ZdFd40gGoAUFVX3lxTE1LQm5CZWtIb1VsRVVOZE45UlZBZjl2WXRoeXlpSnUySDBTRUdhaFpVcURVMG1NTVNCQXpjSTVKVC14VjlsNUNORWxITWVmcFYxc2J3cWNZREU3VWZRQ2FyMlM1bkpFOFNRbTlPV1VvSGMwSTZra2FuY3Z0UHZ4cUdRbW9MSm1OWlVzZzdGdV9oYzJ0Qk5ZMUNtdUVkTkcyWHd6Z0pUTE9pbQ?oc=5",
         "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VLTkwVVg5Y3A2MGFQazlqUHVoa3ZILW1QSVFCOHoyVGdsWFJWLTAtYnRlaW51UFdGNzgteEdVdm5wTHQ1ZlNUcnNaRl9VeGtWQmcyUzdzdGlRUXVoV19Hc0ZtTDZmV3hUblRuR24weWlBbHhU?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5",
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5",
         "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RNW9FY05aSDladThMM2RTcGIycjBOVlFnS0VhOWdVeV9ha1hMcEF0N3pYLUgtTHoyaVk2SGZ2MjVPLXBYQ0pNQVJYOVRJdUYzbXVFRzduNVJYU29MRmpVaW9BVjRld0xkYmNV?oc=5"
       ]
     },
@@ -72,25 +71,24 @@
       "articleIds": [
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
         "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCQUZQWmQ5QlVrc0x3MFJDX1JXVzNWRUZ6UTdsOFFmS3ZFNUROb2t4OEN4eHpqenAyc2FhSlYwczhXdV9iX2NDRUFQaUFhZkhDeEhnNzI0VU1ROUpoRzZBcUxjUVpnVXcx?oc=5",
-        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeVRoQkRSVUV6bEllQmxLcTFranBEc0V3eDRzaWFiSlM3THU2amczWDRKTy13a1pYakZNb3JuSkgwci1mM1p2dEhldFRyVmpjUDI1NmpVdVlxNmxNd0RRbWgwcnpBc1dxLUE?oc=5",
         "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fMEpFN3dwUzZtQU1uM3dqMkNCSFUzNGhvcFBzUV9uLVhQbkhTamZLUHVsVUpNQndnV1RPRUU5Qk96UXpHTmlWcGxwYVpIRnR0VUE?oc=5",
         "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc2pwSmEyWThTV3FiVVQxdVhsLVlCSnozQ0JEeDFZNUpZWDVya3R3Q1lxd3pqRmlHT21qdjlHLXBtTkxLY2F6TWZFY1M0LTdDUGlxZVJXeG9oWllvc1d4b2lNalk0RnYySXlORDRPM0pKekxZeW5jR1B2ellrb0NtaEhhUUVrbHh0VnRmLUJqOF9ZdFd40gGoAUFVX3lxTE1LQm5CZWtIb1VsRVVOZE45UlZBZjl2WXRoeXlpSnUySDBTRUdhaFpVcURVMG1NTVNCQXpjSTVKVC14VjlsNUNORWxITWVmcFYxc2J3cWNZREU3VWZRQ2FyMlM1bkpFOFNRbTlPV1VvSGMwSTZra2FuY3Z0UHZ4cUdRbW9MSm1OWlVzZzdGdV9oYzJ0Qk5ZMUNtdUVkTkcyWHd6Z0pUTE9pbQ?oc=5",
         "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rMUZrOThlQXh6aHNwZGVRa0plSlZLcTA1VWRuVmU1a3BSLWwxblB0VktkSm5uVGNpT3JrMEJUcUFJcUZCOVR5VkUxeUhGdnFKZlNTcU5EZ1pMMEFHZGZGTHg5R3BmcldYU0FLZDBSdlBpSjA?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Rdm9hWEI1NXRBVnVDMUhhX3U0NUVKQnVtNHlMenJWcGVtR1ZOb0hRZE43YjBQQmtVUnB3ME1zUU5ENm8wQmZxZGZ4UEM1bDU5MEpXMkdKckxDS3FQY1HSAWNBVV95cUxNR2wtMl91aEtvS1pyZFp3QVpKazgyTl9oWXRCbXBFQ2ZkcmFXTzV1MDBhRnRzbWNwNm1ndEQtRUt6LTNTZHVfRXh6dGpFWnkyWWp0ZUpUcE43RkJCekI5WXZfSHM?oc=5",
         "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0k0eDFtblhldnFiUjM2bmU0dUVPbUJBcWF2WjRuQVAwVDVQLTlNLTFHMjFvVkplLUFFNVlmVWhPRm41N3VBZDdhMkhHVGRMa1o4LTIxRFRWTHJ0dGJuSW0yWXo5MTF3ZEk0UEYwdk1wbnh4VkI4NGx0SjFpd18yMlBQX1FQVUc50gGcAUFVX3lxTE9nM2g5UURvb1dkYWZzUmhFX2ozNEl3WkRmVzJRVGcxV2YzOERvOVNLSUxyYXBCZG5XNXBKTUhUemlwTW5CWTNpb3lpSU5HV0ZIRU5Xc01TTXRLUkFGdDVXOU9fbFFjZ28tOGJraFVsSGRmcjZ1NWdVanhTSmVOWU9nOU9yQlZRckYzSF9SQzZQNnNJWW85NDRlSUtlWQ?oc=5",
         "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5"
       ]
     },
     {
       "token": "연합뉴스",
-      "score": 7,
+      "score": 6,
       "articleIds": [
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQQUVCU2x2ZTZhOG5paTVaQmQ0cFF1Mk9lUVhlUWhJSGhRZmNiak5BTU9UOU96aWpvVll5TnBYUlVJVmlOZENXVG5YNUxrcGlNRFk3YVpnMEFZNGlx?oc=5",
         "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeVRoQkRSVUV6bEllQmxLcTFranBEc0V3eDRzaWFiSlM3THU2amczWDRKTy13a1pYakZNb3JuSkgwci1mM1p2dEhldFRyVmpjUDI1NmpVdVlxNmxNd0RRbWgwcnpBc1dxLUE?oc=5",
         "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0k0eDFtblhldnFiUjM2bmU0dUVPbUJBcWF2WjRuQVAwVDVQLTlNLTFHMjFvVkplLUFFNVlmVWhPRm41N3VBZDdhMkhHVGRMa1o4LTIxRFRWTHJ0dGJuSW0yWXo5MTF3ZEk0UEYwdk1wbnh4VkI4NGx0SjFpd18yMlBQX1FQVUc50gGcAUFVX3lxTE9nM2g5UURvb1dkYWZzUmhFX2ozNEl3WkRmVzJRVGcxV2YzOERvOVNLSUxyYXBCZG5XNXBKTUhUemlwTW5CWTNpb3lpSU5HV0ZIRU5Xc01TTXRLUkFGdDVXOU9fbFFjZ28tOGJraFVsSGRmcjZ1NWdVanhTSmVOWU9nOU9yQlZRckYzSF9SQzZQNnNJWW85NDRlSUtlWQ?oc=5",
         "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UeUU2N2tTckx4UVAzYmZ6WFVITF9DSjZnSi1QcFpaOTljdDRrQU9ycEJHVW9aajBDX2tlNkxyRWhzbjhmdlEyRmtrQ2l1RmdwektBbw?oc=5",
-        "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vaFdvM1ZsZFROUDZad1ZxUTloeS1GUWRkTFNCV3ZlYnNRa2VUN0J5UmptYVhMWUJwN2VyaEdWR19JQUpYZzhBSGRIX3Z2bnVqbzlWeU5kVHdkUXNZeE1GdzFxWl9vOGhJcjk3TDVLTnI?oc=5",
-        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5"
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vaFdvM1ZsZFROUDZad1ZxUTloeS1GUWRkTFNCV3ZlYnNRa2VUN0J5UmptYVhMWUJwN2VyaEdWR19JQUpYZzhBSGRIX3Z2bnVqbzlWeU5kVHdkUXNZeE1GdzFxWl9vOGhJcjk3TDVLTnI?oc=5"
       ]
     },
     {
@@ -109,8 +107,8 @@
       "token": "kbs",
       "score": 5,
       "articleIds": [
-        "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
         "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xbmVIcHlaMVhIUVYwYUJieGMwcXNDek4yZzZiWE9PbVQ5c05GQjFyc1Jiajdod09hQnNjczJaQzl6OFJ1eHo4VXcwa2RMNlIyb3V3bmZja1pwVFZPcmfSAYMBQVVfeXFMTkdXWU5WeTBRMUtadkt3VEZVTGlJMk4wV3dRQ2ZOT01fNDhpblctT0lSNnBrTks2VHFiUG1QLWItNHc4UjRpTE9HaWNkQ3I2S2lkMURYM005OGw0M0J5eUljQTFjMmoyZmtMRlJQSlFtZktTQUQ2VWVVU2xGWm1qdXYzY2s?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5",
         "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RbzA3dkZtckJtdFBBUmx4bEpYVjItRjZzWmJ3Mk9kcGw3Wkw1VUNVLVRfQ01McllSZlUzRFgxMkdNTUc1M2Z5VDd2SS1iX29MQ1dLRTJlR2Fnd192WTRHakVENXQ?oc=5",
         "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vaFdvM1ZsZFROUDZad1ZxUTloeS1GUWRkTFNCV3ZlYnNRa2VUN0J5UmptYVhMWUJwN2VyaEdWR19JQUpYZzhBSGRIX3Z2bnVqbzlWeU5kVHdkUXNZeE1GdzFxWl9vOGhJcjk3TDVLTnI?oc=5",
         "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RNW9FY05aSDladThMM2RTcGIycjBOVlFnS0VhOWdVeV9ha1hMcEF0N3pYLUgtTHoyaVk2SGZ2MjVPLXBYQ0pNQVJYOVRJdUYzbXVFRzduNVJYU29MRmpVaW9BVjRld0xkYmNV?oc=5"
@@ -128,23 +126,24 @@
       ]
     },
     {
+      "token": "연휴",
+      "score": 5,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCQUZQWmQ5QlVrc0x3MFJDX1JXVzNWRUZ6UTdsOFFmS3ZFNUROb2t4OEN4eHpqenAyc2FhSlYwczhXdV9iX2NDRUFQaUFhZkhDeEhnNzI0VU1ROUpoRzZBcUxjUVpnVXcx?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeVRoQkRSVUV6bEllQmxLcTFranBEc0V3eDRzaWFiSlM3THU2amczWDRKTy13a1pYakZNb3JuSkgwci1mM1p2dEhldFRyVmpjUDI1NmpVdVlxNmxNd0RRbWgwcnpBc1dxLUE?oc=5",
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0k0eDFtblhldnFiUjM2bmU0dUVPbUJBcWF2WjRuQVAwVDVQLTlNLTFHMjFvVkplLUFFNVlmVWhPRm41N3VBZDdhMkhHVGRMa1o4LTIxRFRWTHJ0dGJuSW0yWXo5MTF3ZEk0UEYwdk1wbnh4VkI4NGx0SjFpd18yMlBQX1FQVUc50gGcAUFVX3lxTE9nM2g5UURvb1dkYWZzUmhFX2ozNEl3WkRmVzJRVGcxV2YzOERvOVNLSUxyYXBCZG5XNXBKTUhUemlwTW5CWTNpb3lpSU5HV0ZIRU5Xc01TTXRLUkFGdDVXOU9fbFFjZ28tOGJraFVsSGRmcjZ1NWdVanhTSmVOWU9nOU9yQlZRckYzSF9SQzZQNnNJWW85NDRlSUtlWQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5"
+      ]
+    },
+    {
       "token": "mbc",
       "score": 4,
       "articleIds": [
         "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yTnRrT1RDV0ZnZFlJZmVqcG9VaTVUUm1WRE9VLTN4YnJybEF5YXpiUGZFczNIVHRLNHN5OWJyUmNKWlNIaUVTWnZydGtiZTlYSkRDMGlzUnVPa3loTmVGakV5d0Y1NFItSHhqQ0VkalgwbF81?oc=5",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUndDU0tzNlJZb21jRkpaZzF4X2JNM2xCT0tqUUc0RmRQaEd1TkFxV1h5QnNIc0ZwYUJ1WnN6dWJzLWU0bjdaX1pfZDhYSXo3Tnd5bnJFQ0RRb2hEU0RoZnUyN2Z5UkdtcWxUWXlZY2RRUVpFYmlyWkx1NEZfU3l3NUljLXVUb1FjYl9ZbUVpZ1PSAaQBQVVfeXFMTWhBNExnQTZVVnlldUVkQ2hKRXZvNVpOOFI4UjVSbFI1Z1RuczdNcVUzYVBvTl9PSmxkRHRWNDlTY3hqSTBOWlgwRGlEWHRlRkZrdXJfQkF4NDhlN0RVVGdiVHFXbUVUcVRCX05hRDFhR1NWLW9qUDZNc0hCVlpTVW0tSkJOdHZJQkxEampKZHY4VVVQMnE4WXVUeWpPVFk0UGxBSmY?oc=5",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
         "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeVRoQkRSVUV6bEllQmxLcTFranBEc0V3eDRzaWFiSlM3THU2amczWDRKTy13a1pYakZNb3JuSkgwci1mM1p2dEhldFRyVmpjUDI1NmpVdVlxNmxNd0RRbWgwcnpBc1dxLUE?oc=5",
         "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rMUZrOThlQXh6aHNwZGVRa0plSlZLcTA1VWRuVmU1a3BSLWwxblB0VktkSm5uVGNpT3JrMEJUcUFJcUZCOVR5VkUxeUhGdnFKZlNTcU5EZ1pMMEFHZGZGTHg5R3BmcldYU0FLZDBSdlBpSjA?oc=5"
-      ]
-    },
-    {
-      "token": "ytn",
-      "score": 4,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQQUVCU2x2ZTZhOG5paTVaQmQ0cFF1Mk9lUVhlUWhJSGhRZmNiak5BTU9UOU96aWpvVll5TnBYUlVJVmlOZENXVG5YNUxrcGlNRFk3YVpnMEFZNGlx?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FT1ZtZDhTUkxvSkZGRV9hVjVIczl4eC1GeW83UTFXOGhOMVZJT2RPSEpQOFFlOTR2MmhwYTNURlczV1NqazFVMEtfbUN4VURfV1c0OWx5bTc3UWM?oc=5",
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xbmVIcHlaMVhIUVYwYUJieGMwcXNDek4yZzZiWE9PbVQ5c05GQjFyc1Jiajdod09hQnNjczJaQzl6OFJ1eHo4VXcwa2RMNlIyb3V3bmZja1pwVFZPcmfSAYMBQVVfeXFMTkdXWU5WeTBRMUtadkt3VEZVTGlJMk4wV3dRQ2ZOT01fNDhpblctT0lSNnBrTks2VHFiUG1QLWItNHc4UjRpTE9HaWNkQ3I2S2lkMURYM005OGw0M0J5eUljQTFjMmoyZmtMRlJQSlFtZktTQUQ2VWVVU2xGWm1qdXYzY2s?oc=5",
-        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RbzA3dkZtckJtdFBBUmx4bEpYVjItRjZzWmJ3Mk9kcGw3Wkw1VUNVLVRfQ01McllSZlUzRFgxMkdNTUc1M2Z5VDd2SS1iX29MQ1dLRTJlR2Fnd192WTRHakVENXQ?oc=5"
       ]
     },
     {
@@ -152,19 +151,9 @@
       "score": 4,
       "articleIds": [
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YSkZLeGUtNTdmd0hZcGN0aDVzbFBQVDA1LXBaeXBQdnExXzRBYlE4RWpDRmdjdTU3d2hRb2dINnZIZlFleXN4QkozdkZERXJRZXVN?oc=5",
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQQUVCU2x2ZTZhOG5paTVaQmQ0cFF1Mk9lUVhlUWhJSGhRZmNiak5BTU9UOU96aWpvVll5TnBYUlVJVmlOZENXVG5YNUxrcGlNRFk3YVpnMEFZNGlx?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Rdm9hWEI1NXRBVnVDMUhhX3U0NUVKQnVtNHlMenJWcGVtR1ZOb0hRZE43YjBQQmtVUnB3ME1zUU5ENm8wQmZxZGZ4UEM1bDU5MEpXMkdKckxDS3FQY1HSAWNBVV95cUxNR2wtMl91aEtvS1pyZFp3QVpKazgyTl9oWXRCbXBFQ2ZkcmFXTzV1MDBhRnRzbWNwNm1ndEQtRUt6LTNTZHVfRXh6dGpFWnkyWWp0ZUpUcE43RkJCekI5WXZfSHM?oc=5",
         "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zb2ttblplUzhvcTdWV2QzT3ZUZk43UlNTWGF3WWduRElMRnVaamJDTDh3ak5ITTBmcjJoN2lIUzdaTW9YM3d4MVpQVWRfWXFiVlZ6cUNjTV80d9IBX0FVX3lxTFA1bUIyT29vVmRhVkpJeEVRNWJZWFZqUTdWa2VzOTZKVXFfOF81Ui16UXRWRnFhVm1lMWVscl9hNjZOZFNQdVBrVzNBem1JbXBKT0UwUUR6N1pibWlHQnd3?oc=5"
-      ]
-    },
-    {
-      "token": "뉴스에서",
-      "score": 4,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YSkZLeGUtNTdmd0hZcGN0aDVzbFBQVDA1LXBaeXBQdnExXzRBYlE4RWpDRmdjdTU3d2hRb2dINnZIZlFleXN4QkozdkZERXJRZXVN?oc=5",
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFhhSjVLSmRsZl9JZTFfTE5UWkh4YlRXMTUwWXNWc3l4T3VPMV9IY3dtVFplSm9zeHFtMWlhUmhFTXdTZ2tmVGM0RlBTSWRzamcyUFBMNkE3SG1zQUt0eWZqTFNBM1huMmMtVmo3eHlPQWFSdUctUXdzcUF5MDlRVDVpN0Y2aFVudnRmRVBZdkh1djhLN1NpWVNCOUbSAbABQVVfeXFMTWRMWmZ6eTVXVlVpb2dndWhHOWVwSjFBMUtzMGVmM0lUb05BQldkaW1nRE1mb21LVXY4bFNWeWZhNXhvN2xEZ2dDbmpTU0wwR2k1TzZlaTI2TmNiRmZrYWpDNDRQbHBqQkVFME53TW9xWFZnQ2hsYTJMYWdJd1hsbkRtWjNyX1ZlMnlETF83Z0lCSm9tTUdaRTRDcjB2SHVCSXlLSVJVSDJfRjl2UFNDODM?oc=5",
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3bU9aQ0YxcEtwc3dOVE92Tl9zVkZTV2drcHpSdk9uaGsyd1FYOFljV0lBY0ZUcjRwcFI0ZU10cEp3U28zTm9vZUVyNnhWVWs?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5"
       ]
     },
     {
@@ -175,16 +164,6 @@
         "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCQUZQWmQ5QlVrc0x3MFJDX1JXVzNWRUZ6UTdsOFFmS3ZFNUROb2t4OEN4eHpqenAyc2FhSlYwczhXdV9iX2NDRUFQaUFhZkhDeEhnNzI0VU1ROUpoRzZBcUxjUVpnVXcx?oc=5",
         "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UeUU2N2tTckx4UVAzYmZ6WFVITF9DSjZnSi1QcFpaOTljdDRrQU9ycEJHVW9aajBDX2tlNkxyRWhzbjhmdlEyRmtrQ2l1RmdwektBbw?oc=5",
         "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5"
-      ]
-    },
-    {
-      "token": "머니투데이",
-      "score": 4,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FT1ZtZDhTUkxvSkZGRV9hVjVIczl4eC1GeW83UTFXOGhOMVZJT2RPSEpQOFFlOTR2MmhwYTNURlczV1NqazFVMEtfbUN4VURfV1c0OWx5bTc3UWM?oc=5",
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UeUU2N2tTckx4UVAzYmZ6WFVITF9DSjZnSi1QcFpaOTljdDRrQU9ycEJHVW9aajBDX2tlNkxyRWhzbjhmdlEyRmtrQ2l1RmdwektBbw?oc=5",
-        "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NQXdXN1VhbDRfczBkdkhDOUl3dDZOVV96WjFHVWdMRmhEUkVZcGlOZ2xLU19sbi0wano4ckdTbVNLNUprRVJEWjFXcWt2WmNmck5aSGZuNmVoeTExUGpkNDN2UDVhUzRmVnpibFZR?oc=5"
       ]
     },
     {
@@ -201,10 +180,10 @@
       "token": "문화일보",
       "score": 4,
       "articleIds": [
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQQUVCU2x2ZTZhOG5paTVaQmQ0cFF1Mk9lUVhlUWhJSGhRZmNiak5BTU9UOU96aWpvVll5TnBYUlVJVmlOZENXVG5YNUxrcGlNRFk3YVpnMEFZNGlx?oc=5",
         "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yTnRrT1RDV0ZnZFlJZmVqcG9VaTVUUm1WRE9VLTN4YnJybEF5YXpiUGZFczNIVHRLNHN5OWJyUmNKWlNIaUVTWnZydGtiZTlYSkRDMGlzUnVPa3loTmVGakV5d0Y1NFItSHhqQ0VkalgwbF81?oc=5",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUndDU0tzNlJZb21jRkpaZzF4X2JNM2xCT0tqUUc0RmRQaEd1TkFxV1h5QnNIc0ZwYUJ1WnN6dWJzLWU0bjdaX1pfZDhYSXo3Tnd5bnJFQ0RRb2hEU0RoZnUyN2Z5UkdtcWxUWXlZY2RRUVpFYmlyWkx1NEZfU3l3NUljLXVUb1FjYl9ZbUVpZ1PSAaQBQVVfeXFMTWhBNExnQTZVVnlldUVkQ2hKRXZvNVpOOFI4UjVSbFI1Z1RuczdNcVUzYVBvTl9PSmxkRHRWNDlTY3hqSTBOWlgwRGlEWHRlRkZrdXJfQkF4NDhlN0RVVGdiVHFXbUVUcVRCX05hRDFhR1NWLW9qUDZNc0hCVlpTVW0tSkJOdHZJQkxEampKZHY4VVVQMnE4WXVUeWpPVFk0UGxBSmY?oc=5"
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5",
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5"
       ]
     },
     {
@@ -218,53 +197,12 @@
       ]
     },
     {
-      "token": "보기",
-      "score": 4,
+      "token": "ytn",
+      "score": 3,
       "articleIds": [
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YSkZLeGUtNTdmd0hZcGN0aDVzbFBQVDA1LXBaeXBQdnExXzRBYlE4RWpDRmdjdTU3d2hRb2dINnZIZlFleXN4QkozdkZERXJRZXVN?oc=5",
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFhhSjVLSmRsZl9JZTFfTE5UWkh4YlRXMTUwWXNWc3l4T3VPMV9IY3dtVFplSm9zeHFtMWlhUmhFTXdTZ2tmVGM0RlBTSWRzamcyUFBMNkE3SG1zQUt0eWZqTFNBM1huMmMtVmo3eHlPQWFSdUctUXdzcUF5MDlRVDVpN0Y2aFVudnRmRVBZdkh1djhLN1NpWVNCOUbSAbABQVVfeXFMTWRMWmZ6eTVXVlVpb2dndWhHOWVwSjFBMUtzMGVmM0lUb05BQldkaW1nRE1mb21LVXY4bFNWeWZhNXhvN2xEZ2dDbmpTU0wwR2k1TzZlaTI2TmNiRmZrYWpDNDRQbHBqQkVFME53TW9xWFZnQ2hsYTJMYWdJd1hsbkRtWjNyX1ZlMnlETF83Z0lCSm9tTUdaRTRDcjB2SHVCSXlLSVJVSDJfRjl2UFNDODM?oc=5",
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3bU9aQ0YxcEtwc3dOVE92Tl9zVkZTV2drcHpSdk9uaGsyd1FYOFljV0lBY0ZUcjRwcFI0ZU10cEp3U28zTm9vZUVyNnhWVWs?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5"
-      ]
-    },
-    {
-      "token": "연휴",
-      "score": 4,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCQUZQWmQ5QlVrc0x3MFJDX1JXVzNWRUZ6UTdsOFFmS3ZFNUROb2t4OEN4eHpqenAyc2FhSlYwczhXdV9iX2NDRUFQaUFhZkhDeEhnNzI0VU1ROUpoRzZBcUxjUVpnVXcx?oc=5",
-        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeVRoQkRSVUV6bEllQmxLcTFranBEc0V3eDRzaWFiSlM3THU2amczWDRKTy13a1pYakZNb3JuSkgwci1mM1p2dEhldFRyVmpjUDI1NmpVdVlxNmxNd0RRbWgwcnpBc1dxLUE?oc=5",
-        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0k0eDFtblhldnFiUjM2bmU0dUVPbUJBcWF2WjRuQVAwVDVQLTlNLTFHMjFvVkplLUFFNVlmVWhPRm41N3VBZDdhMkhHVGRMa1o4LTIxRFRWTHJ0dGJuSW0yWXo5MTF3ZEk0UEYwdk1wbnh4VkI4NGx0SjFpd18yMlBQX1FQVUc50gGcAUFVX3lxTE9nM2g5UURvb1dkYWZzUmhFX2ozNEl3WkRmVzJRVGcxV2YzOERvOVNLSUxyYXBCZG5XNXBKTUhUemlwTW5CWTNpb3lpSU5HV0ZIRU5Xc01TTXRLUkFGdDVXOU9fbFFjZ28tOGJraFVsSGRmcjZ1NWdVanhTSmVOWU9nOU9yQlZRckYzSF9SQzZQNnNJWW85NDRlSUtlWQ?oc=5"
-      ]
-    },
-    {
-      "token": "올림픽",
-      "score": 4,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQQUVCU2x2ZTZhOG5paTVaQmQ0cFF1Mk9lUVhlUWhJSGhRZmNiak5BTU9UOU96aWpvVll5TnBYUlVJVmlOZENXVG5YNUxrcGlNRFk3YVpnMEFZNGlx?oc=5",
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UeUU2N2tTckx4UVAzYmZ6WFVITF9DSjZnSi1QcFpaOTljdDRrQU9ycEJHVW9aajBDX2tlNkxyRWhzbjhmdlEyRmtrQ2l1RmdwektBbw?oc=5",
-        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5"
-      ]
-    },
-    {
-      "token": "전체",
-      "score": 4,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YSkZLeGUtNTdmd0hZcGN0aDVzbFBQVDA1LXBaeXBQdnExXzRBYlE4RWpDRmdjdTU3d2hRb2dINnZIZlFleXN4QkozdkZERXJRZXVN?oc=5",
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFhhSjVLSmRsZl9JZTFfTE5UWkh4YlRXMTUwWXNWc3l4T3VPMV9IY3dtVFplSm9zeHFtMWlhUmhFTXdTZ2tmVGM0RlBTSWRzamcyUFBMNkE3SG1zQUt0eWZqTFNBM1huMmMtVmo3eHlPQWFSdUctUXdzcUF5MDlRVDVpN0Y2aFVudnRmRVBZdkh1djhLN1NpWVNCOUbSAbABQVVfeXFMTWRMWmZ6eTVXVlVpb2dndWhHOWVwSjFBMUtzMGVmM0lUb05BQldkaW1nRE1mb21LVXY4bFNWeWZhNXhvN2xEZ2dDbmpTU0wwR2k1TzZlaTI2TmNiRmZrYWpDNDRQbHBqQkVFME53TW9xWFZnQ2hsYTJMYWdJd1hsbkRtWjNyX1ZlMnlETF83Z0lCSm9tTUdaRTRDcjB2SHVCSXlLSVJVSDJfRjl2UFNDODM?oc=5",
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3bU9aQ0YxcEtwc3dOVE92Tl9zVkZTV2drcHpSdk9uaGsyd1FYOFljV0lBY0ZUcjRwcFI0ZU10cEp3U28zTm9vZUVyNnhWVWs?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5"
-      ]
-    },
-    {
-      "token": "콘텐츠",
-      "score": 4,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YSkZLeGUtNTdmd0hZcGN0aDVzbFBQVDA1LXBaeXBQdnExXzRBYlE4RWpDRmdjdTU3d2hRb2dINnZIZlFleXN4QkozdkZERXJRZXVN?oc=5",
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFhhSjVLSmRsZl9JZTFfTE5UWkh4YlRXMTUwWXNWc3l4T3VPMV9IY3dtVFplSm9zeHFtMWlhUmhFTXdTZ2tmVGM0RlBTSWRzamcyUFBMNkE3SG1zQUt0eWZqTFNBM1huMmMtVmo3eHlPQWFSdUctUXdzcUF5MDlRVDVpN0Y2aFVudnRmRVBZdkh1djhLN1NpWVNCOUbSAbABQVVfeXFMTWRMWmZ6eTVXVlVpb2dndWhHOWVwSjFBMUtzMGVmM0lUb05BQldkaW1nRE1mb21LVXY4bFNWeWZhNXhvN2xEZ2dDbmpTU0wwR2k1TzZlaTI2TmNiRmZrYWpDNDRQbHBqQkVFME53TW9xWFZnQ2hsYTJMYWdJd1hsbkRtWjNyX1ZlMnlETF83Z0lCSm9tTUdaRTRDcjB2SHVCSXlLSVJVSDJfRjl2UFNDODM?oc=5",
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3bU9aQ0YxcEtwc3dOVE92Tl9zVkZTV2drcHpSdk9uaGsyd1FYOFljV0lBY0ZUcjRwcFI0ZU10cEp3U28zTm9vZUVyNnhWVWs?oc=5",
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5"
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xbmVIcHlaMVhIUVYwYUJieGMwcXNDek4yZzZiWE9PbVQ5c05GQjFyc1Jiajdod09hQnNjczJaQzl6OFJ1eHo4VXcwa2RMNlIyb3V3bmZja1pwVFZPcmfSAYMBQVVfeXFMTkdXWU5WeTBRMUtadkt3VEZVTGlJMk4wV3dRQ2ZOT01fNDhpblctT0lSNnBrTks2VHFiUG1QLWItNHc4UjRpTE9HaWNkQ3I2S2lkMURYM005OGw0M0J5eUljQTFjMmoyZmtMRlJQSlFtZktTQUQ2VWVVU2xGWm1qdXYzY2s?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RbzA3dkZtckJtdFBBUmx4bEpYVjItRjZzWmJ3Mk9kcGw3Wkw1VUNVLVRfQ01McllSZlUzRFgxMkdNTUc1M2Z5VDd2SS1iX29MQ1dLRTJlR2Fnd192WTRHakVENXQ?oc=5"
       ]
     },
     {
@@ -274,6 +212,15 @@
         "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zb2ttblplUzhvcTdWV2QzT3ZUZk43UlNTWGF3WWduRElMRnVaamJDTDh3ak5ITTBmcjJoN2lIUzdaTW9YM3d4MVpQVWRfWXFiVlZ6cUNjTV80d9IBX0FVX3lxTFA1bUIyT29vVmRhVkpJeEVRNWJZWFZqUTdWa2VzOTZKVXFfOF81Ui16UXRWRnFhVm1lMWVscl9hNjZOZFNQdVBrVzNBem1JbXBKT0UwUUR6N1pibWlHQnd3?oc=5",
         "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UeUU2N2tTckx4UVAzYmZ6WFVITF9DSjZnSi1QcFpaOTljdDRrQU9ycEJHVW9aajBDX2tlNkxyRWhzbjhmdlEyRmtrQ2l1RmdwektBbw?oc=5",
         "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vaFdvM1ZsZFROUDZad1ZxUTloeS1GUWRkTFNCV3ZlYnNRa2VUN0J5UmptYVhMWUJwN2VyaEdWR19JQUpYZzhBSGRIX3Z2bnVqbzlWeU5kVHdkUXNZeE1GdzFxWl9vOGhJcjk3TDVLTnI?oc=5"
+      ]
+    },
+    {
+      "token": "뉴스1",
+      "score": 3,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeVRoQkRSVUV6bEllQmxLcTFranBEc0V3eDRzaWFiSlM3THU2amczWDRKTy13a1pYakZNb3JuSkgwci1mM1p2dEhldFRyVmpjUDI1NmpVdVlxNmxNd0RRbWgwcnpBc1dxLUE?oc=5",
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fMEpFN3dwUzZtQU1uM3dqMkNCSFUzNGhvcFBzUV9uLVhQbkhTamZLUHVsVUpNQndnV1RPRUU5Qk96UXpHTmlWcGxwYVpIRnR0VUE?oc=5"
       ]
     },
     {
@@ -289,9 +236,18 @@
       "token": "매일경제",
       "score": 3,
       "articleIds": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUndDU0tzNlJZb21jRkpaZzF4X2JNM2xCT0tqUUc0RmRQaEd1TkFxV1h5QnNIc0ZwYUJ1WnN6dWJzLWU0bjdaX1pfZDhYSXo3Tnd5bnJFQ0RRb2hEU0RoZnUyN2Z5UkdtcWxUWXlZY2RRUVpFYmlyWkx1NEZfU3l3NUljLXVUb1FjYl9ZbUVpZ1PSAaQBQVVfeXFMTWhBNExnQTZVVnlldUVkQ2hKRXZvNVpOOFI4UjVSbFI1Z1RuczdNcVUzYVBvTl9PSmxkRHRWNDlTY3hqSTBOWlgwRGlEWHRlRkZrdXJfQkF4NDhlN0RVVGdiVHFXbUVUcVRCX05hRDFhR1NWLW9qUDZNc0hCVlpTVW0tSkJOdHZJQkxEampKZHY4VVVQMnE4WXVUeWpPVFk0UGxBSmY?oc=5",
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EQWpadDBiUzhCRWctNXZEUjNwY1hrVlRfR1dRb3Z5NUZHZjNzY0Uwa2k4ZjhHQXFwbk5GZERnY1dXTjF1Rko0czRJTWg3VWhMZnFXZA?oc=5",
         "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fMEpFN3dwUzZtQU1uM3dqMkNCSFUzNGhvcFBzUV9uLVhQbkhTamZLUHVsVUpNQndnV1RPRUU5Qk96UXpHTmlWcGxwYVpIRnR0VUE?oc=5",
         "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5"
+      ]
+    },
+    {
+      "token": "명절",
+      "score": 3,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EQWpadDBiUzhCRWctNXZEUjNwY1hrVlRfR1dRb3Z5NUZHZjNzY0Uwa2k4ZjhHQXFwbk5GZERnY1dXTjF1Rko0czRJTWg3VWhMZnFXZA?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCQUZQWmQ5QlVrc0x3MFJDX1JXVzNWRUZ6UTdsOFFmS3ZFNUROb2t4OEN4eHpqenAyc2FhSlYwczhXdV9iX2NDRUFQaUFhZkhDeEhnNzI0VU1ROUpoRzZBcUxjUVpnVXcx?oc=5",
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zb2ttblplUzhvcTdWV2QzT3ZUZk43UlNTWGF3WWduRElMRnVaamJDTDh3ak5ITTBmcjJoN2lIUzdaTW9YM3d4MVpQVWRfWXFiVlZ6cUNjTV80d9IBX0FVX3lxTFA1bUIyT29vVmRhVkpJeEVRNWJZWFZqUTdWa2VzOTZKVXFfOF81Ui16UXRWRnFhVm1lMWVscl9hNjZOZFNQdVBrVzNBem1JbXBKT0UwUUR6N1pibWlHQnd3?oc=5"
       ]
     },
     {
@@ -304,15 +260,6 @@
       ]
     },
     {
-      "token": "브릿지경제",
-      "score": 3,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rMUZrOThlQXh6aHNwZGVRa0plSlZLcTA1VWRuVmU1a3BSLWwxblB0VktkSm5uVGNpT3JrMEJUcUFJcUZCOVR5VkUxeUhGdnFKZlNTcU5EZ1pMMEFHZGZGTHg5R3BmcldYU0FLZDBSdlBpSjA?oc=5",
-        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RbzA3dkZtckJtdFBBUmx4bEpYVjItRjZzWmJ3Mk9kcGw3Wkw1VUNVLVRfQ01McllSZlUzRFgxMkdNTUc1M2Z5VDd2SS1iX29MQ1dLRTJlR2Fnd192WTRHakVENXQ?oc=5",
-        "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NQXdXN1VhbDRfczBkdkhDOUl3dDZOVV96WjFHVWdMRmhEUkVZcGlOZ2xLU19sbi0wano4ckdTbVNLNUprRVJEWjFXcWt2WmNmck5aSGZuNmVoeTExUGpkNDN2UDVhUzRmVnpibFZR?oc=5"
-      ]
-    },
-    {
       "token": "선거",
       "score": 3,
       "articleIds": [
@@ -322,29 +269,20 @@
       ]
     },
     {
-      "token": "아냐",
+      "token": "올림픽",
       "score": 3,
       "articleIds": [
         "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
-        "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yTnRrT1RDV0ZnZFlJZmVqcG9VaTVUUm1WRE9VLTN4YnJybEF5YXpiUGZFczNIVHRLNHN5OWJyUmNKWlNIaUVTWnZydGtiZTlYSkRDMGlzUnVPa3loTmVGakV5d0Y1NFItSHhqQ0VkalgwbF81?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FT1ZtZDhTUkxvSkZGRV9hVjVIczl4eC1GeW83UTFXOGhOMVZJT2RPSEpQOFFlOTR2MmhwYTNURlczV1NqazFVMEtfbUN4VURfV1c0OWx5bTc3UWM?oc=5"
-      ]
-    },
-    {
-      "token": "우리",
-      "score": 3,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUndDU0tzNlJZb21jRkpaZzF4X2JNM2xCT0tqUUc0RmRQaEd1TkFxV1h5QnNIc0ZwYUJ1WnN6dWJzLWU0bjdaX1pfZDhYSXo3Tnd5bnJFQ0RRb2hEU0RoZnUyN2Z5UkdtcWxUWXlZY2RRUVpFYmlyWkx1NEZfU3l3NUljLXVUb1FjYl9ZbUVpZ1PSAaQBQVVfeXFMTWhBNExnQTZVVnlldUVkQ2hKRXZvNVpOOFI4UjVSbFI1Z1RuczdNcVUzYVBvTl9PSmxkRHRWNDlTY3hqSTBOWlgwRGlEWHRlRkZrdXJfQkF4NDhlN0RVVGdiVHFXbUVUcVRCX05hRDFhR1NWLW9qUDZNc0hCVlpTVW0tSkJOdHZJQkxEampKZHY4VVVQMnE4WXVUeWpPVFk0UGxBSmY?oc=5",
-        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5",
-        "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NQXdXN1VhbDRfczBkdkhDOUl3dDZOVV96WjFHVWdMRmhEUkVZcGlOZ2xLU19sbi0wano4ckdTbVNLNUprRVJEWjFXcWt2WmNmck5aSGZuNmVoeTExUGpkNDN2UDVhUzRmVnpibFZR?oc=5"
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQQUVCU2x2ZTZhOG5paTVaQmQ0cFF1Mk9lUVhlUWhJSGhRZmNiak5BTU9UOU96aWpvVll5TnBYUlVJVmlOZENXVG5YNUxrcGlNRFk3YVpnMEFZNGlx?oc=5",
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UeUU2N2tTckx4UVAzYmZ6WFVITF9DSjZnSi1QcFpaOTljdDRrQU9ycEJHVW9aajBDX2tlNkxyRWhzbjhmdlEyRmtrQ2l1RmdwektBbw?oc=5"
       ]
     },
     {
       "token": "이유",
       "score": 3,
       "articleIds": [
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EQWpadDBiUzhCRWctNXZEUjNwY1hrVlRfR1dRb3Z5NUZHZjNzY0Uwa2k4ZjhHQXFwbk5GZERnY1dXTjF1Rko0czRJTWg3VWhMZnFXZA?oc=5",
         "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GeXZOLTRHZ1I1TS1Oa3lmczlwTEhsYnFRUkUtX3NQVDVtQ2QtNTFXODY4TjBVOXF1d3NZUS1YaFVJSUlhdzQ4WVpHeWd6WlJMdzlzeU8wb1ZKcmpQX3JiaUd0OGFVWTNPYzFuWTFueVdBYmc0dkE?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FT1ZtZDhTUkxvSkZGRV9hVjVIczl4eC1GeW83UTFXOGhOMVZJT2RPSEpQOFFlOTR2MmhwYTNURlczV1NqazFVMEtfbUN4VURfV1c0OWx5bTc3UWM?oc=5",
         "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5"
       ]
     },
@@ -375,11 +313,11 @@
       ]
     },
     {
-      "token": "co",
+      "token": "500m",
       "score": 2,
       "articleIds": [
-        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zb2ttblplUzhvcTdWV2QzT3ZUZk43UlNTWGF3WWduRElMRnVaamJDTDh3ak5ITTBmcjJoN2lIUzdaTW9YM3d4MVpQVWRfWXFiVlZ6cUNjTV80d9IBX0FVX3lxTFA1bUIyT29vVmRhVkpJeEVRNWJZWFZqUTdWa2VzOTZKVXFfOF81Ui16UXRWRnFhVm1lMWVscl9hNjZOZFNQdVBrVzNBem1JbXBKT0UwUUR6N1pibWlHQnd3?oc=5",
-        "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NQXdXN1VhbDRfczBkdkhDOUl3dDZOVV96WjFHVWdMRmhEUkVZcGlOZ2xLU19sbi0wano4ckdTbVNLNUprRVJEWjFXcWt2WmNmck5aSGZuNmVoeTExUGpkNDN2UDVhUzRmVnpibFZR?oc=5"
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5"
       ]
     },
     {
@@ -388,14 +326,6 @@
       "articleIds": [
         "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rMUZrOThlQXh6aHNwZGVRa0plSlZLcTA1VWRuVmU1a3BSLWwxblB0VktkSm5uVGNpT3JrMEJUcUFJcUZCOVR5VkUxeUhGdnFKZlNTcU5EZ1pMMEFHZGZGTHg5R3BmcldYU0FLZDBSdlBpSjA?oc=5",
         "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xbmVIcHlaMVhIUVYwYUJieGMwcXNDek4yZzZiWE9PbVQ5c05GQjFyc1Jiajdod09hQnNjczJaQzl6OFJ1eHo4VXcwa2RMNlIyb3V3bmZja1pwVFZPcmfSAYMBQVVfeXFMTkdXWU5WeTBRMUtadkt3VEZVTGlJMk4wV3dRQ2ZOT01fNDhpblctT0lSNnBrTks2VHFiUG1QLWItNHc4UjRpTE9HaWNkQ3I2S2lkMURYM005OGw0M0J5eUljQTFjMmoyZmtMRlJQSlFtZktTQUQ2VWVVU2xGWm1qdXYzY2s?oc=5"
-      ]
-    },
-    {
-      "token": "kr",
-      "score": 2,
-      "articleIds": [
-        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zb2ttblplUzhvcTdWV2QzT3ZUZk43UlNTWGF3WWduRElMRnVaamJDTDh3ak5ITTBmcjJoN2lIUzdaTW9YM3d4MVpQVWRfWXFiVlZ6cUNjTV80d9IBX0FVX3lxTFA1bUIyT29vVmRhVkpJeEVRNWJZWFZqUTdWa2VzOTZKVXFfOF81Ui16UXRWRnFhVm1lMWVscl9hNjZOZFNQdVBrVzNBem1JbXBKT0UwUUR6N1pibWlHQnd3?oc=5",
-        "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NQXdXN1VhbDRfczBkdkhDOUl3dDZOVV96WjFHVWdMRmhEUkVZcGlOZ2xLU19sbi0wano4ckdTbVNLNUprRVJEWjFXcWt2WmNmck5aSGZuNmVoeTExUGpkNDN2UDVhUzRmVnpibFZR?oc=5"
       ]
     },
     {
@@ -421,9 +351,92 @@
         "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQzVYZmV0VDRfQ2VGUzBfZ0Z4M0VDeUtoRmF4M3JKY25EWm5mNnltOGF5U2lSeWhlSFNneFBTNnlmeUdSeC1kSS1pb0c4Q0hxaUdPeU1Vamt5TzJjc0dVcy1NVk1qMGZMTFl6c2hMX2hoWllQRXc2ZjFocEZnaFRvQzFjRUd3aHdleFdKUmVfenfSAaQBQVVfeXFMTjJuc1liRFJEdDM5WXpQVGxhM0Y4NEFUcVNJSVJkZXpvSzQxTS1YSENMUTVxZWtWYV9NLTdNV25pdVE4NnRZbmlZd0ozX2pzbnpaYTdWWHBZMlM2WkIycnN5cEJmUXllVGJJYTZudl9HX1BINFFpQ1J4RGxXZnFlbF9FLUR5WjJiT3BsdHdBLUhvVTFkRlpkaDV1dEJFZE10M2Q5TC0?oc=5",
         "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RbzA3dkZtckJtdFBBUmx4bEpYVjItRjZzWmJ3Mk9kcGw3Wkw1VUNVLVRfQ01McllSZlUzRFgxMkdNTUc1M2Z5VDd2SS1iX29MQ1dLRTJlR2Fnd192WTRHakVENXQ?oc=5"
       ]
+    },
+    {
+      "token": "기호일보",
+      "score": 2,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCQUZQWmQ5QlVrc0x3MFJDX1JXVzNWRUZ6UTdsOFFmS3ZFNUROb2t4OEN4eHpqenAyc2FhSlYwczhXdV9iX2NDRUFQaUFhZkhDeEhnNzI0VU1ROUpoRzZBcUxjUVpnVXcx?oc=5",
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0k0eDFtblhldnFiUjM2bmU0dUVPbUJBcWF2WjRuQVAwVDVQLTlNLTFHMjFvVkplLUFFNVlmVWhPRm41N3VBZDdhMkhHVGRMa1o4LTIxRFRWTHJ0dGJuSW0yWXo5MTF3ZEk0UEYwdk1wbnh4VkI4NGx0SjFpd18yMlBQX1FQVUc50gGcAUFVX3lxTE9nM2g5UURvb1dkYWZzUmhFX2ozNEl3WkRmVzJRVGcxV2YzOERvOVNLSUxyYXBCZG5XNXBKTUhUemlwTW5CWTNpb3lpSU5HV0ZIRU5Xc01TTXRLUkFGdDVXOU9fbFFjZ28tOGJraFVsSGRmcjZ1NWdVanhTSmVOWU9nOU9yQlZRckYzSF9SQzZQNnNJWW85NDRlSUtlWQ?oc=5"
+      ]
+    },
+    {
+      "token": "논의",
+      "score": 2,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rMUZrOThlQXh6aHNwZGVRa0plSlZLcTA1VWRuVmU1a3BSLWwxblB0VktkSm5uVGNpT3JrMEJUcUFJcUZCOVR5VkUxeUhGdnFKZlNTcU5EZ1pMMEFHZGZGTHg5R3BmcldYU0FLZDBSdlBpSjA?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RbzA3dkZtckJtdFBBUmx4bEpYVjItRjZzWmJ3Mk9kcGw3Wkw1VUNVLVRfQ01McllSZlUzRFgxMkdNTUc1M2Z5VDd2SS1iX29MQ1dLRTJlR2Fnd192WTRHakVENXQ?oc=5"
+      ]
+    },
+    {
+      "token": "뉴스에서",
+      "score": 2,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EQWpadDBiUzhCRWctNXZEUjNwY1hrVlRfR1dRb3Z5NUZHZjNzY0Uwa2k4ZjhHQXFwbk5GZERnY1dXTjF1Rko0czRJTWg3VWhMZnFXZA?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFhhSjVLSmRsZl9JZTFfTE5UWkh4YlRXMTUwWXNWc3l4T3VPMV9IY3dtVFplSm9zeHFtMWlhUmhFTXdTZ2tmVGM0RlBTSWRzamcyUFBMNkE3SG1zQUt0eWZqTFNBM1huMmMtVmo3eHlPQWFSdUctUXdzcUF5MDlRVDVpN0Y2aFVudnRmRVBZdkh1djhLN1NpWVNCOUbSAbABQVVfeXFMTWRMWmZ6eTVXVlVpb2dndWhHOWVwSjFBMUtzMGVmM0lUb05BQldkaW1nRE1mb21LVXY4bFNWeWZhNXhvN2xEZ2dDbmpTU0wwR2k1TzZlaTI2TmNiRmZrYWpDNDRQbHBqQkVFME53TW9xWFZnQ2hsYTJMYWdJd1hsbkRtWjNyX1ZlMnlETF83Z0lCSm9tTUdaRTRDcjB2SHVCSXlLSVJVSDJfRjl2UFNDODM?oc=5"
+      ]
+    },
+    {
+      "token": "대전",
+      "score": 2,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VLTkwVVg5Y3A2MGFQazlqUHVoa3ZILW1QSVFCOHoyVGdsWFJWLTAtYnRlaW51UFdGNzgteEdVdm5wTHQ1ZlNUcnNaRl9VeGtWQmcyUzdzdGlRUXVoV19Hc0ZtTDZmV3hUblRuR24weWlBbHhU?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RbzA3dkZtckJtdFBBUmx4bEpYVjItRjZzWmJ3Mk9kcGw3Wkw1VUNVLVRfQ01McllSZlUzRFgxMkdNTUc1M2Z5VDd2SS1iX29MQ1dLRTJlR2Fnd192WTRHakVENXQ?oc=5"
+      ]
+    },
+    {
+      "token": "둘째",
+      "score": 2,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0k0eDFtblhldnFiUjM2bmU0dUVPbUJBcWF2WjRuQVAwVDVQLTlNLTFHMjFvVkplLUFFNVlmVWhPRm41N3VBZDdhMkhHVGRMa1o4LTIxRFRWTHJ0dGJuSW0yWXo5MTF3ZEk0UEYwdk1wbnh4VkI4NGx0SjFpd18yMlBQX1FQVUc50gGcAUFVX3lxTE9nM2g5UURvb1dkYWZzUmhFX2ozNEl3WkRmVzJRVGcxV2YzOERvOVNLSUxyYXBCZG5XNXBKTUhUemlwTW5CWTNpb3lpSU5HV0ZIRU5Xc01TTXRLUkFGdDVXOU9fbFFjZ28tOGJraFVsSGRmcjZ1NWdVanhTSmVOWU9nOU9yQlZRckYzSF9SQzZQNnNJWW85NDRlSUtlWQ?oc=5"
+      ]
+    },
+    {
+      "token": "레이스",
+      "score": 2,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5"
+      ]
+    },
+    {
+      "token": "만에",
+      "score": 2,
+      "articleIds": [
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fR1d5cjBfZE9SdWZKODNTSWk0c0dtX1lLUlJ6RWFmM1lKbVJFOWdUcmNZd2oyX0F4Q0NRR2JKRFRkY1YyVC05VkZHdFFNZmRrUHhBRXFHLVQ2QdIBVEFVX3lxTE1EWFNIcFpxR2U3OGpTYTcyNTc2d1JxalA5enhuUktuWF9WQ2ZyWDZuUGp2eUJ6SzJkWkpVRm9ROVo2cGN3WF9vYmMtRzJWdjVyVm5UaQ?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFhhSjVLSmRsZl9JZTFfTE5UWkh4YlRXMTUwWXNWc3l4T3VPMV9IY3dtVFplSm9zeHFtMWlhUmhFTXdTZ2tmVGM0RlBTSWRzamcyUFBMNkE3SG1zQUt0eWZqTFNBM1huMmMtVmo3eHlPQWFSdUctUXdzcUF5MDlRVDVpN0Y2aFVudnRmRVBZdkh1djhLN1NpWVNCOUbSAbABQVVfeXFMTWRMWmZ6eTVXVlVpb2dndWhHOWVwSjFBMUtzMGVmM0lUb05BQldkaW1nRE1mb21LVXY4bFNWeWZhNXhvN2xEZ2dDbmpTU0wwR2k1TzZlaTI2TmNiRmZrYWpDNDRQbHBqQkVFME53TW9xWFZnQ2hsYTJMYWdJd1hsbkRtWjNyX1ZlMnlETF83Z0lCSm9tTUdaRTRDcjB2SHVCSXlLSVJVSDJfRjl2UFNDODM?oc=5"
+      ]
     }
   ],
   "articlesById": {
+    "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fc0UxY05xYmpWUktBTGRnMXYtWUZsYlpqRDNSYkxvek01XzZmTlJnMEZMZ1dHYjJXWlZXVWlNQUx4QUV1Tkk4WG9SSWZKVjc3NDFqX2N5bkRjNVRCazFkU2tvcVlkeU5kNXVFRnhJOA?oc=5": {
+      "id": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fc0UxY05xYmpWUktBTGRnMXYtWUZsYlpqRDNSYkxvek01XzZmTlJnMEZMZ1dHYjJXWlZXVWlNQUx4QUV1Tkk4WG9SSWZKVjc3NDFqX2N5bkRjNVRCazFkU2tvcVlkeU5kNXVFRnhJOA?oc=5",
+      "title": "[월드 투데이] ‘해적병(괴혈병)’을 부를 수도 있는 비만치료제의 오남용 - 위키리크스한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fc0UxY05xYmpWUktBTGRnMXYtWUZsYlpqRDNSYkxvek01XzZmTlJnMEZMZ1dHYjJXWlZXVWlNQUx4QUV1Tkk4WG9SSWZKVjc3NDFqX2N5bkRjNVRCazFkU2tvcVlkeU5kNXVFRnhJOA?oc=5",
+      "description": "[월드 투데이] ‘해적병(괴혈병)’을 부를 수도 있는 비만치료제의 오남용 위키리크스한국",
+      "source": "주요 뉴스 - Google 뉴스",
+      "publishedAt": "2026-02-14T21:56:32.000Z",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    },
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fR1d5cjBfZE9SdWZKODNTSWk0c0dtX1lLUlJ6RWFmM1lKbVJFOWdUcmNZd2oyX0F4Q0NRR2JKRFRkY1YyVC05VkZHdFFNZmRrUHhBRXFHLVQ2QdIBVEFVX3lxTE1EWFNIcFpxR2U3OGpTYTcyNTc2d1JxalA5enhuUktuWF9WQ2ZyWDZuUGp2eUJ6SzJkWkpVRm9ROVo2cGN3WF9vYmMtRzJWdjVyVm5UaQ?oc=5": {
+      "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fR1d5cjBfZE9SdWZKODNTSWk0c0dtX1lLUlJ6RWFmM1lKbVJFOWdUcmNZd2oyX0F4Q0NRR2JKRFRkY1YyVC05VkZHdFFNZmRrUHhBRXFHLVQ2QdIBVEFVX3lxTE1EWFNIcFpxR2U3OGpTYTcyNTc2d1JxalA5enhuUktuWF9WQ2ZyWDZuUGp2eUJ6SzJkWkpVRm9ROVo2cGN3WF9vYmMtRzJWdjVyVm5UaQ?oc=5",
+      "title": "\"5년 만에 매출 27배로 폭증\"…불안 팔아 성장했다 [부동산 강의지옥 中] - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fR1d5cjBfZE9SdWZKODNTSWk0c0dtX1lLUlJ6RWFmM1lKbVJFOWdUcmNZd2oyX0F4Q0NRR2JKRFRkY1YyVC05VkZHdFFNZmRrUHhBRXFHLVQ2QdIBVEFVX3lxTE1EWFNIcFpxR2U3OGpTYTcyNTc2d1JxalA5enhuUktuWF9WQ2ZyWDZuUGp2eUJ6SzJkWkpVRm9ROVo2cGN3WF9vYmMtRzJWdjVyVm5UaQ?oc=5",
+      "description": "\"5년 만에 매출 27배로 폭증\"…불안 팔아 성장했다 [부동산 강의지옥 中] 한국경제",
+      "source": "주요 뉴스 - Google 뉴스",
+      "publishedAt": "2026-02-14T21:48:50.000Z",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    },
+    "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EQWpadDBiUzhCRWctNXZEUjNwY1hrVlRfR1dRb3Z5NUZHZjNzY0Uwa2k4ZjhHQXFwbk5GZERnY1dXTjF1Rko0czRJTWg3VWhMZnFXZA?oc=5": {
+      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EQWpadDBiUzhCRWctNXZEUjNwY1hrVlRfR1dRb3Z5NUZHZjNzY0Uwa2k4ZjhHQXFwbk5GZERnY1dXTjF1Rko0czRJTWg3VWhMZnFXZA?oc=5",
+      "title": "“니 아직도 엄마집에 사나”…두려운 명절 잔소리에도 독립 어려운 이유 [캥거루족 탈출기⑤] - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EQWpadDBiUzhCRWctNXZEUjNwY1hrVlRfR1dRb3Z5NUZHZjNzY0Uwa2k4ZjhHQXFwbk5GZERnY1dXTjF1Rko0czRJTWg3VWhMZnFXZA?oc=5",
+      "description": "“니 아직도 엄마집에 사나”…두려운 명절 잔소리에도 독립 어려운 이유 [캥거루족 탈출기⑤] 매일경제Google 뉴스에서 전체 콘텐츠 보기",
+      "source": "주요 뉴스 - Google 뉴스",
+      "publishedAt": "2026-02-14T21:31:28.000Z",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    },
     "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GeXZOLTRHZ1I1TS1Oa3lmczlwTEhsYnFRUkUtX3NQVDVtQ2QtNTFXODY4TjBVOXF1d3NZUS1YaFVJSUlhdzQ4WVpHeWd6WlJMdzlzeU8wb1ZKcmpQX3JiaUd0OGFVWTNPYzFuWTFueVdBYmc0dkE?oc=5": {
       "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GeXZOLTRHZ1I1TS1Oa3lmczlwTEhsYnFRUkUtX3NQVDVtQ2QtNTFXODY4TjBVOXF1d3NZUS1YaFVJSUlhdzQ4WVpHeWd6WlJMdzlzeU8wb1ZKcmpQX3JiaUd0OGFVWTNPYzFuWTFueVdBYmc0dkE?oc=5",
       "title": "연휴에 ‘코미디 영화’를 봐야 하는 이유 - 조선일보",
@@ -437,18 +450,9 @@
       "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
       "title": "스피드 스케이팅 500ｍ 메달 끊겼다…김준호 12위-구경민 15위, 美 스톨츠 2관왕[2026 밀라노] - 네이트 스포츠",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FUVQ3Sk5oemV2NExJQ1BtZ3YzMTZtT1ptTjJYcm9LdTMxMUExUzJoNkZDOUFzT2h1ZEwtemdmUEhJWThWUXhfS2t3WnVwdXZlcDN1R3VUbWNkSzE1?oc=5",
-      "description": "스피드 스케이팅 500ｍ 메달 끊겼다…김준호 12위-구경민 15위, 美 스톨츠 2관왕[2026 밀라노] 네이트 스포츠 [올림픽] 빙속 구경민의 깨달음 \"지금 실력으론 정상급 선수들에 역부족\" 연합뉴스 ‘괴물 스케이터’ 美 스톨츠, 500m도 ‘OR+GOLD’ 문화일보 [밀라노 스토리]2010년 오노 보며 스케이터 꿈 키운 22세 美빙속괴물, 1000m→500m도 미친 레이스, 압도적 우승! 4관왕 '꿈이 아냐' 조선일보 올림픽 신기록으로 우승하는 미국 조던 스톨츠 뉴시스",
+      "description": "스피드 스케이팅 500ｍ 메달 끊겼다…김준호 12위-구경민 15위, 美 스톨츠 2관왕[2026 밀라노] 네이트 스포츠 스피드스케이팅 김준호, 500m 12위…구경민 15위 v.daum.net [올림픽] 빙속 구경민의 깨달음 \"지금 실력으론 정상급 선수들에 역부족\" 연합뉴스 [밀라노 스토리]2010년 오노 보며 스케이터 꿈 키운 22세 美빙속괴물, 1000m→500m도 미친 레이스, 압도적 우승! 4관왕 '꿈이 아냐' 조선일보 올림픽 신기록으로 우승하는 미국 조던 스톨츠 뉴시스",
       "source": "주요 뉴스 - Google 뉴스",
       "publishedAt": "2026-02-14T16:44:00.000Z",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    },
-    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YSkZLeGUtNTdmd0hZcGN0aDVzbFBQVDA1LXBaeXBQdnExXzRBYlE4RWpDRmdjdTU3d2hRb2dINnZIZlFleXN4QkozdkZERXJRZXVN?oc=5": {
-      "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YSkZLeGUtNTdmd0hZcGN0aDVzbFBQVDA1LXBaeXBQdnExXzRBYlE4RWpDRmdjdTU3d2hRb2dINnZIZlFleXN4QkozdkZERXJRZXVN?oc=5",
-      "title": "무속인 된 이건주 \"바람 피울 팔자 따로 있다, 불륜女 만나며 아내 걱정\" 충격 일화('동치미') - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YSkZLeGUtNTdmd0hZcGN0aDVzbFBQVDA1LXBaeXBQdnExXzRBYlE4RWpDRmdjdTU3d2hRb2dINnZIZlFleXN4QkozdkZERXJRZXVN?oc=5",
-      "description": "무속인 된 이건주 \"바람 피울 팔자 따로 있다, 불륜女 만나며 아내 걱정\" 충격 일화('동치미') 네이트Google 뉴스에서 전체 콘텐츠 보기",
-      "source": "주요 뉴스 - Google 뉴스",
-      "publishedAt": "2026-02-14T15:20:00.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     "https://news.google.com/rss/articles/CBMiakFVX3lxTE45b3RWUzBWTVEtTUNhZlh0aXZRRTZPbklTOGNPOVBsSDJ1NkJ6WmVUaVJoY1dBekhGa2tRSjZxRnN3WjdBb0xaMW1Id2RWMHJXTTl0NkpvZWwzVkR4ZFJJcUc2dS1xUU5SVUE?oc=5": {
@@ -523,15 +527,6 @@
       "publishedAt": "2026-02-14T12:00:00.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
-    "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUndDU0tzNlJZb21jRkpaZzF4X2JNM2xCT0tqUUc0RmRQaEd1TkFxV1h5QnNIc0ZwYUJ1WnN6dWJzLWU0bjdaX1pfZDhYSXo3Tnd5bnJFQ0RRb2hEU0RoZnUyN2Z5UkdtcWxUWXlZY2RRUVpFYmlyWkx1NEZfU3l3NUljLXVUb1FjYl9ZbUVpZ1PSAaQBQVVfeXFMTWhBNExnQTZVVnlldUVkQ2hKRXZvNVpOOFI4UjVSbFI1Z1RuczdNcVUzYVBvTl9PSmxkRHRWNDlTY3hqSTBOWlgwRGlEWHRlRkZrdXJfQkF4NDhlN0RVVGdiVHFXbUVUcVRCX05hRDFhR1NWLW9qUDZNc0hCVlpTVW0tSkJOdHZJQkxEampKZHY4VVVQMnE4WXVUeWpPVFk0UGxBSmY?oc=5": {
-      "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUndDU0tzNlJZb21jRkpaZzF4X2JNM2xCT0tqUUc0RmRQaEd1TkFxV1h5QnNIc0ZwYUJ1WnN6dWJzLWU0bjdaX1pfZDhYSXo3Tnd5bnJFQ0RRb2hEU0RoZnUyN2Z5UkdtcWxUWXlZY2RRUVpFYmlyWkx1NEZfU3l3NUljLXVUb1FjYl9ZbUVpZ1PSAaQBQVVfeXFMTWhBNExnQTZVVnlldUVkQ2hKRXZvNVpOOFI4UjVSbFI1Z1RuczdNcVUzYVBvTl9PSmxkRHRWNDlTY3hqSTBOWlgwRGlEWHRlRkZrdXJfQkF4NDhlN0RVVGdiVHFXbUVUcVRCX05hRDFhR1NWLW9qUDZNc0hCVlpTVW0tSkJOdHZJQkxEampKZHY4VVVQMnE4WXVUeWpPVFk0UGxBSmY?oc=5",
-      "title": "강훈식 “부동산 불패? 이재명은 합니다”...‘격노설’은 일축 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUndDU0tzNlJZb21jRkpaZzF4X2JNM2xCT0tqUUc0RmRQaEd1TkFxV1h5QnNIc0ZwYUJ1WnN6dWJzLWU0bjdaX1pfZDhYSXo3Tnd5bnJFQ0RRb2hEU0RoZnUyN2Z5UkdtcWxUWXlZY2RRUVpFYmlyWkx1NEZfU3l3NUljLXVUb1FjYl9ZbUVpZ1PSAaQBQVVfeXFMTWhBNExnQTZVVnlldUVkQ2hKRXZvNVpOOFI4UjVSbFI1Z1RuczdNcVUzYVBvTl9PSmxkRHRWNDlTY3hqSTBOWlgwRGlEWHRlRkZrdXJfQkF4NDhlN0RVVGdiVHFXbUVUcVRCX05hRDFhR1NWLW9qUDZNc0hCVlpTVW0tSkJOdHZJQkxEampKZHY4VVVQMnE4WXVUeWpPVFk0UGxBSmY?oc=5",
-      "description": "강훈식 “부동산 불패? 이재명은 합니다”...‘격노설’은 일축 조선일보 \"부동산 불패 시대 끝낸다\"…강훈식, 추가 정책 시사 v.daum.net “부동산 불패 우리 정부서 끝낸다는 것이 기조”…‘이재명은 한다’는 강훈식 매일경제 강훈식 실장 \"입법·행정권 총동원할 수 있다‥부동산 폐해 끝내야\" MBC 뉴스 아직 강한 카드 쓰지도 않았다…靑 관계자들, 부동산 거듭 경고 문화일보",
-      "source": "주요 뉴스 - Google 뉴스",
-      "publishedAt": "2026-02-14T10:08:00.000Z",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFhhSjVLSmRsZl9JZTFfTE5UWkh4YlRXMTUwWXNWc3l4T3VPMV9IY3dtVFplSm9zeHFtMWlhUmhFTXdTZ2tmVGM0RlBTSWRzamcyUFBMNkE3SG1zQUt0eWZqTFNBM1huMmMtVmo3eHlPQWFSdUctUXdzcUF5MDlRVDVpN0Y2aFVudnRmRVBZdkh1djhLN1NpWVNCOUbSAbABQVVfeXFMTWRMWmZ6eTVXVlVpb2dndWhHOWVwSjFBMUtzMGVmM0lUb05BQldkaW1nRE1mb21LVXY4bFNWeWZhNXhvN2xEZ2dDbmpTU0wwR2k1TzZlaTI2TmNiRmZrYWpDNDRQbHBqQkVFME53TW9xWFZnQ2hsYTJMYWdJd1hsbkRtWjNyX1ZlMnlETF83Z0lCSm9tTUdaRTRDcjB2SHVCSXlLSVJVSDJfRjl2UFNDODM?oc=5": {
       "id": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFhhSjVLSmRsZl9JZTFfTE5UWkh4YlRXMTUwWXNWc3l4T3VPMV9IY3dtVFplSm9zeHFtMWlhUmhFTXdTZ2tmVGM0RlBTSWRzamcyUFBMNkE3SG1zQUt0eWZqTFNBM1huMmMtVmo3eHlPQWFSdUctUXdzcUF5MDlRVDVpN0Y2aFVudnRmRVBZdkh1djhLN1NpWVNCOUbSAbABQVVfeXFMTWRMWmZ6eTVXVlVpb2dndWhHOWVwSjFBMUtzMGVmM0lUb05BQldkaW1nRE1mb21LVXY4bFNWeWZhNXhvN2xEZ2dDbmpTU0wwR2k1TzZlaTI2TmNiRmZrYWpDNDRQbHBqQkVFME53TW9xWFZnQ2hsYTJMYWdJd1hsbkRtWjNyX1ZlMnlETF83Z0lCSm9tTUdaRTRDcjB2SHVCSXlLSVJVSDJfRjl2UFNDODM?oc=5",
       "title": "석방 몇 시간 만에 재체포...‘과니파 사태’로 드러난 베네수엘라 ‘화해’의 민낯 - 조선일보",
@@ -545,7 +540,7 @@
       "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
       "title": "설 연휴 이튿날, 흐리고 낮 19도 ‘봄기운’…미세먼지는 나쁨 - 한겨레",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55dmlqWFdBbENFbEFlaWF5dlVLSEloNVpaa3JSbkxLYUs0ZmM1ZWs3QWczWVg4d2trZGNVdkVBNEtnZHBkREMzanBibXdvMmduMFRmY1BscENBdDloRGpFNU1BSVhMVHVwc1hCbF94WmQwUQ?oc=5",
-      "description": "설 연휴 이튿날, 흐리고 낮 19도 ‘봄기운’…미세먼지는 나쁨 한겨레 수도권·강원 영서 미세먼지 비상저감조치 시·도 합동 점검회의 주재 - 포토 | 멀티미디어 대한민국 정책브리핑 설 연휴 한낮 18도 ‘포근’…내일 강원 영동에 많은 눈 v.daum.net [뉴스9 날씨] 내일도 초미세먼지 ‘나쁨’…서쪽 곳곳 짙은 안개 KBS 뉴스 [오늘 날씨]전국 흐리고 곳곳 빗방울…안개·미세먼지 기승 머니투데이",
+      "description": "설 연휴 이튿날, 흐리고 낮 19도 ‘봄기운’…미세먼지는 나쁨 한겨레 수도권·강원 영서 미세먼지 비상저감조치 시·도 합동 점검회의 주재 - 포토 | 멀티미디어 대한민국 정책브리핑 [날씨] 오늘도 탁한 대기질…짧은 가시거리 운전 주의 v.daum.net [날씨] 설 연휴 둘째 날 포근한 날씨 이어질 듯 MBC 뉴스 연휴 둘째날 미세먼지·안개 '뿌연 하늘'…낮 최고 19도[오늘날씨] 뉴스1",
       "source": "주요 뉴스 - Google 뉴스",
       "publishedAt": "2026-02-14T07:56:00.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
@@ -572,7 +567,7 @@
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeVRoQkRSVUV6bEllQmxLcTFranBEc0V3eDRzaWFiSlM3THU2amczWDRKTy13a1pYakZNb3JuSkgwci1mM1p2dEhldFRyVmpjUDI1NmpVdVlxNmxNd0RRbWgwcnpBc1dxLUE?oc=5",
       "title": "연휴 첫날, 서울→부산 6시간10분…저녁 6시께 귀성길 숨통 - 한겨레",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeVRoQkRSVUV6bEllQmxLcTFranBEc0V3eDRzaWFiSlM3THU2amczWDRKTy13a1pYakZNb3JuSkgwci1mM1p2dEhldFRyVmpjUDI1NmpVdVlxNmxNd0RRbWgwcnpBc1dxLUE?oc=5",
-      "description": "연휴 첫날, 서울→부산 6시간10분…저녁 6시께 귀성길 숨통 한겨레 오늘 귀성길 가장 심한 정체 예상…\"12시~13시 절정\" v.daum.net 열차를 기다리며 뉴시스 '포근한 연휴 시작' 선물꾸러미 든 귀성객 발길 이어져 연합뉴스 안개·미세먼지 속 귀성 첫날‥내일이 정체 고비 MBC 뉴스",
+      "description": "연휴 첫날, 서울→부산 6시간10분…저녁 6시께 귀성길 숨통 한겨레 오늘 귀성길 가장 심한 정체 예상…\"12시~13시 절정\" v.daum.net '통행료 면제·열차 반값·고궁 무료'…설 연휴 혜택 한눈에 뉴스1 '포근한 연휴 시작' 선물꾸러미 든 귀성객 발길 이어져 연합뉴스 안개·미세먼지 속 귀성 첫날‥내일이 정체 고비 MBC 뉴스",
       "source": "주요 뉴스 - Google 뉴스",
       "publishedAt": "2026-02-14T04:51:00.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
@@ -595,15 +590,6 @@
       "publishedAt": "2026-02-14T04:20:00.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
-    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FT1ZtZDhTUkxvSkZGRV9hVjVIczl4eC1GeW83UTFXOGhOMVZJT2RPSEpQOFFlOTR2MmhwYTNURlczV1NqazFVMEtfbUN4VURfV1c0OWx5bTc3UWM?oc=5": {
-      "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FT1ZtZDhTUkxvSkZGRV9hVjVIczl4eC1GeW83UTFXOGhOMVZJT2RPSEpQOFFlOTR2MmhwYTNURlczV1NqazFVMEtfbUN4VURfV1c0OWx5bTc3UWM?oc=5",
-      "title": "황정음, ‘장난감 나눔’ 논란에 입 열었다 “사실 아닌 것에 대응 안 해” - 일간스포츠",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FT1ZtZDhTUkxvSkZGRV9hVjVIczl4eC1GeW83UTFXOGhOMVZJT2RPSEpQOFFlOTR2MmhwYTNURlczV1NqazFVMEtfbUN4VURfV1c0OWx5bTc3UWM?oc=5",
-      "description": "황정음, ‘장난감 나눔’ 논란에 입 열었다 “사실 아닌 것에 대응 안 해” 일간스포츠 \"쓰레기 버린 거 아냐?\" 황정음, 장난감 무료 나눔에 비난 쇄도[MD이슈] v.daum.net 46억 이태원 집 묶였다…황정음, 전 소속사에 2.8억 가압류 당해 헤럴드경제 '폐기물 나눔' 논란에 입 연 황정음 \"사실 아니라 대응 안 해\" 머니투데이 \"편하게 가져가세요\"...황정음 '나눔'이 비판 받은 이유 YTN",
-      "source": "주요 뉴스 - Google 뉴스",
-      "publishedAt": "2026-02-14T04:13:00.000Z",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    },
     "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rMUZrOThlQXh6aHNwZGVRa0plSlZLcTA1VWRuVmU1a3BSLWwxblB0VktkSm5uVGNpT3JrMEJUcUFJcUZCOVR5VkUxeUhGdnFKZlNTcU5EZ1pMMEFHZGZGTHg5R3BmcldYU0FLZDBSdlBpSjA?oc=5": {
       "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rMUZrOThlQXh6aHNwZGVRa0plSlZLcTA1VWRuVmU1a3BSLWwxblB0VktkSm5uVGNpT3JrMEJUcUFJcUZCOVR5VkUxeUhGdnFKZlNTcU5EZ1pMMEFHZGZGTHg5R3BmcldYU0FLZDBSdlBpSjA?oc=5",
       "title": "미국 국무장관의 뼈아픈 반성문 \"우리는 눈이 멀었습니다\" [기후인사이트 19 | 인싸M] - MBC 뉴스",
@@ -611,6 +597,15 @@
       "description": "미국 국무장관의 뼈아픈 반성문 \"우리는 눈이 멀었습니다\" [기후인사이트 19 | 인싸M] MBC 뉴스 美, 中대항 '핵심광물 공급망' 속도…韓·G7 등과 협력 논의 한국무역협회-KITA.NET 美 USTR, 한·일 등과 핵심광물 공급망 협의⋯‘G7 플러스’ 공조 강화 브릿지경제 美, '중국 견제' 핵심광물 공급망 속도…한국 등과 논의 아시아경제 통상본부장, 美 주도 핵심광물 통상장관회의 참석…공급망 다변화 논의 뉴시스",
       "source": "주요 뉴스 - Google 뉴스",
       "publishedAt": "2026-02-14T02:00:16.000Z",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+    },
+    "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Rdm9hWEI1NXRBVnVDMUhhX3U0NUVKQnVtNHlMenJWcGVtR1ZOb0hRZE43YjBQQmtVUnB3ME1zUU5ENm8wQmZxZGZ4UEM1bDU5MEpXMkdKckxDS3FQY1HSAWNBVV95cUxNR2wtMl91aEtvS1pyZFp3QVpKazgyTl9oWXRCbXBFQ2ZkcmFXTzV1MDBhRnRzbWNwNm1ndEQtRUt6LTNTZHVfRXh6dGpFWnkyWWp0ZUpUcE43RkJCekI5WXZfSHM?oc=5": {
+      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Rdm9hWEI1NXRBVnVDMUhhX3U0NUVKQnVtNHlMenJWcGVtR1ZOb0hRZE43YjBQQmtVUnB3ME1zUU5ENm8wQmZxZGZ4UEM1bDU5MEpXMkdKckxDS3FQY1HSAWNBVV95cUxNR2wtMl91aEtvS1pyZFp3QVpKazgyTl9oWXRCbXBFQ2ZkcmFXTzV1MDBhRnRzbWNwNm1ndEQtRUt6LTNTZHVfRXh6dGpFWnkyWWp0ZUpUcE43RkJCekI5WXZfSHM?oc=5",
+      "title": "유선호, ‘♥신은수’ 열애 심경 고백한다 - 스포츠경향",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Rdm9hWEI1NXRBVnVDMUhhX3U0NUVKQnVtNHlMenJWcGVtR1ZOb0hRZE43YjBQQmtVUnB3ME1zUU5ENm8wQmZxZGZ4UEM1bDU5MEpXMkdKckxDS3FQY1HSAWNBVV95cUxNR2wtMl91aEtvS1pyZFp3QVpKazgyTl9oWXRCbXBFQ2ZkcmFXTzV1MDBhRnRzbWNwNm1ndEQtRUt6LTNTZHVfRXh6dGpFWnkyWWp0ZUpUcE43RkJCekI5WXZfSHM?oc=5",
+      "description": "유선호, ‘♥신은수’ 열애 심경 고백한다 스포츠경향 유선호, 신은수와 열애 첫 언급 “얼떨떨하지만 응원 감사해” v.daum.net 유선호♥신은수→하정우♥차정원…2026년 연예계 달군 '공개 커플' [★FOCUS] 네이트 '신은수♥' 유선호, 열애 인정 후 첫 심경 \"얼떨떨하지만 감사\" 뉴시스 \"얼떨떨\"... 유선호, 신은수와 열애 인정 후 첫 심경 고백-문화ㅣ한국일보 한국일보",
+      "source": "주요 뉴스 - Google 뉴스",
+      "publishedAt": "2026-02-14T00:24:00.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FWkVyWWxSbVZ5VEVMSE5tOTJCLWdiUUt4Q3RRSk9nYW5aaExaeDlhLVlJYnRpS0dPdE4xVHR2ZkFZRmxZV2pIR3dGOElwSGhMbW5Hd2I4Vy16QdIBVEFVX3lxTE5NaURGN1RYVzNscGxQZlpRQkNJdWxnQlVTOXVEaWZ0MGlEOTlSYTJPdnlSOVUtNUdEZWRLZnd2MEJZcG53b3dZOHlGQ2hHaHVNek84aA?oc=5": {
@@ -644,18 +639,9 @@
       "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zb2ttblplUzhvcTdWV2QzT3ZUZk43UlNTWGF3WWduRElMRnVaamJDTDh3ak5ITTBmcjJoN2lIUzdaTW9YM3d4MVpQVWRfWXFiVlZ6cUNjTV80d9IBX0FVX3lxTFA1bUIyT29vVmRhVkpJeEVRNWJZWFZqUTdWa2VzOTZKVXFfOF81Ui16UXRWRnFhVm1lMWVscl9hNjZOZFNQdVBrVzNBem1JbXBKT0UwUUR6N1pibWlHQnd3?oc=5",
       "title": "술, 떡국, 전·과일 한 접시면 끝···종가 차례상 근본은 간소함이었다 - 경향신문",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zb2ttblplUzhvcTdWV2QzT3ZUZk43UlNTWGF3WWduRElMRnVaamJDTDh3ak5ITTBmcjJoN2lIUzdaTW9YM3d4MVpQVWRfWXFiVlZ6cUNjTV80d9IBX0FVX3lxTFA1bUIyT29vVmRhVkpJeEVRNWJZWFZqUTdWa2VzOTZKVXFfOF81Ui16UXRWRnFhVm1lMWVscl9hNjZOZFNQdVBrVzNBem1JbXBKT0UwUUR6N1pibWlHQnd3?oc=5",
-      "description": "술, 떡국, 전·과일 한 접시면 끝···종가 차례상 근본은 간소함이었다 경향신문 [오늘의 그래픽] \"설 차례 안지낸다\"…전년 대비 12%p 오른 64% v.daum.net \"올 설엔 제사 안 지냅니다\"…명절 문화 조용한 변화 네이트 \"차례가 중요한가요?\"…시대 흐름이 바꾼 설 풍경 [프레스룸 오늘뭐사니] mbn.co.kr “설 차례상 떡국에 4가지면 충분… 홍동백서보다 가족 행복이 먼저” 동아일보",
+      "description": "술, 떡국, 전·과일 한 접시면 끝···종가 차례상 근본은 간소함이었다 경향신문 [오늘의 그래픽] \"설 차례 안지낸다\"…전년 대비 12%p 오른 64% v.daum.net \"올 설엔 제사 안 지냅니다\"…명절 문화 조용한 변화 네이트 [설 꿀팁] “왼손이 위? 오른손이 위?”… 설 세배·차례 예법 천지일보 “설 차례상 떡국에 4가지면 충분… 홍동백서보다 가족 행복이 먼저” 동아일보",
       "source": "주요 뉴스 - Google 뉴스",
       "publishedAt": "2026-02-13T21:00:00.000Z",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    },
-    "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3bU9aQ0YxcEtwc3dOVE92Tl9zVkZTV2drcHpSdk9uaGsyd1FYOFljV0lBY0ZUcjRwcFI0ZU10cEp3U28zTm9vZUVyNnhWVWs?oc=5": {
-      "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3bU9aQ0YxcEtwc3dOVE92Tl9zVkZTV2drcHpSdk9uaGsyd1FYOFljV0lBY0ZUcjRwcFI0ZU10cEp3U28zTm9vZUVyNnhWVWs?oc=5",
-      "title": "[단독] 쿠팡 뉴욕 집단소송, 보안 전문 판사에 배당‥본격 심리 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3bU9aQ0YxcEtwc3dOVE92Tl9zVkZTV2drcHpSdk9uaGsyd1FYOFljV0lBY0ZUcjRwcFI0ZU10cEp3U28zTm9vZUVyNnhWVWs?oc=5",
-      "description": "[단독] 쿠팡 뉴욕 집단소송, 보안 전문 판사에 배당‥본격 심리 v.daum.netGoogle 뉴스에서 전체 콘텐츠 보기",
-      "source": "주요 뉴스 - Google 뉴스",
-      "publishedAt": "2026-02-13T13:40:05.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UeUU2N2tTckx4UVAzYmZ6WFVITF9DSjZnSi1QcFpaOTljdDRrQU9ycEJHVW9aajBDX2tlNkxyRWhzbjhmdlEyRmtrQ2l1RmdwektBbw?oc=5": {
@@ -680,7 +666,7 @@
       "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5",
       "title": "민주, 서울·충청 탈환해 싹쓸이 노려 … 국힘, 현역 사수 '안간힘' - 매일경제",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RREVtTTN0RERkVzF5VzZnYXo3aU1MZVVhT25BNXFoQ3BhOU5TSmN3VnZ6RnkwRE44Q1gxa2tOdjB0VmpQc0phcW1wb01PcGl2b00tX2NR?oc=5",
-      "description": "민주, 서울·충청 탈환해 싹쓸이 노려 … 국힘, 현역 사수 '안간힘' 매일경제Google 뉴스에서 전체 콘텐츠 보기",
+      "description": "민주, 서울·충청 탈환해 싹쓸이 노려 … 국힘, 현역 사수 '안간힘' 매일경제 총성 울린 6·3 지방선거 레이스…행정통합·선거연대 변수 KBS 뉴스 여권이 유리한 6월 지방선거…明淸 갈등이 ‘물밑 뇌관’ 조선일보 지방선거 전초전 된 설 연휴… 민심의 선택은 v.daum.net 민주, 지방권력도 싹쓸이하나… 국힘, 영남黨 우려 씻어내리나[2026 설특집] 문화일보",
       "source": "주요 뉴스 - Google 뉴스",
       "publishedAt": "2026-02-13T07:07:04.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
@@ -707,7 +693,7 @@
       "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5",
       "title": "“당연히 슬프다…올림픽이니까” 최민정, 500m 메달 좌절에 울컥한 이유 [2026 밀라노] - 스포츠서울",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WcXRYSS0wQmhpQTJodTh5UHFVa05wZWJDSHo4ZzZCdlZVS3pJV1E5ZkNIeExtSmNSNHJjZjZxNG9mbG5rUWFObGx4T0VTQ3lCVGg4a0ZOVG4?oc=5",
-      "description": "“당연히 슬프다…올림픽이니까” 최민정, 500m 메달 좌절에 울컥한 이유 [2026 밀라노] 스포츠서울 최민정-김길리-노도희, 女 1000m 예선 ALL 통과…계주 예열 완료 v.daum.net 미안해 뉴시스 쇼트트랙 국가대표들 최선을 다하다…자랑스러운 우리 선수들에게 박수! 대한민국 정책브리핑 [올림픽] 김길리 덮쳤던 스토더드, 또 넘어졌다…쇼트트랙 1,000ｍ 탈락 연합뉴스",
+      "description": "“당연히 슬프다…올림픽이니까” 최민정, 500m 메달 좌절에 울컥한 이유 [2026 밀라노] 스포츠서울 최민정·김길리·노도희, 쇼트트랙 여자 1000m 예선 통과 조선일보 미안해 뉴시스 쇼트트랙 국가대표들 최선을 다하다…자랑스러운 우리 선수들에게 박수! 대한민국 정책브리핑 쇼트트랙 여자 3000m 계주, 압도적 기량으로 결승행 문화일보",
       "source": "주요 뉴스 - Google 뉴스",
       "publishedAt": "2026-02-13T05:16:00.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
@@ -719,15 +705,6 @@
       "description": "“의대 가려면 제주로?”…지역의사제에 고교당 평균 2.5명 ‘전국 최고’ 제주의소리 전공의들 \"의대교육 현장은 붕괴직전…합동실사단 구성 촉구\" v.daum.net '지역의사제'로 대입 변화 전망…제주·강원 등 수혜기대 아시아경제 전공의노조 “증원 재논의해야…조합원 총의 모아 대응” KBS 뉴스 “지방 의대 입시설명회 해달라”… 지역 의사로 들뜬 교육계 조선일보",
       "source": "주요 뉴스 - Google 뉴스",
       "publishedAt": "2026-02-13T03:13:17.000Z",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    },
-    "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NQXdXN1VhbDRfczBkdkhDOUl3dDZOVV96WjFHVWdMRmhEUkVZcGlOZ2xLU19sbi0wano4ckdTbVNLNUprRVJEWjFXcWt2WmNmck5aSGZuNmVoeTExUGpkNDN2UDVhUzRmVnpibFZR?oc=5": {
-      "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NQXdXN1VhbDRfczBkdkhDOUl3dDZOVV96WjFHVWdMRmhEUkVZcGlOZ2xLU19sbi0wano4ckdTbVNLNUprRVJEWjFXcWt2WmNmck5aSGZuNmVoeTExUGpkNDN2UDVhUzRmVnpibFZR?oc=5",
-      "title": "소아·청소년 제2형 당뇨병 급증 “10세 이후 혈당검사 필요” - 메드월드뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NQXdXN1VhbDRfczBkdkhDOUl3dDZOVV96WjFHVWdMRmhEUkVZcGlOZ2xLU19sbi0wano4ckdTbVNLNUprRVJEWjFXcWt2WmNmck5aSGZuNmVoeTExUGpkNDN2UDVhUzRmVnpibFZR?oc=5",
-      "description": "소아·청소년 제2형 당뇨병 급증 “10세 이후 혈당검사 필요” 메드월드뉴스 \"밤마다 화장실 들락\" 피곤하다는 우리 애...혹시 당뇨병? 머니투데이 [임채경의 알쓸신잡]#8 \"한국 젊은 세대를 덮친 당뇨 경보!\" 이로운뉴스 [명의칼럼] 2030세대 20%는 ‘당뇨 위험군’… 고당도 디저트 섭취 경계해야 브릿지경제 국내 60~69세 절반이 당뇨병전단계 mostonline.co.kr",
-      "source": "주요 뉴스 - Google 뉴스",
-      "publishedAt": "2026-02-12T23:33:32.000Z",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     }
   }
