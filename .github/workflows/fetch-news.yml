@@ -1,8 +1,6 @@
 name: Fetch Latest News
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"
   workflow_dispatch: {}
   push:
     paths:
